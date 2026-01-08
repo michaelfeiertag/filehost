@@ -1,0 +1,20 @@
+GDPR
+CCPA / CPRA
+HIPAA
+GLBA
+State breach laws
+FTC Act §5
+SEC cyber rules
+NYDFS 23 NYCRR 500
+NIST 800-53 / 800-171
+SOX
+CAN-SPAM
+TCPA
+FTC advertising
+Employment laws
+OFAC
+EAR / ITAR
+PCI DSS
+FERPA
+FDA regs
+FCC regs
