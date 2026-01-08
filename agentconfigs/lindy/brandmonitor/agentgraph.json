@@ -1,0 +1,4135 @@
+{
+	"data": {
+		"node": {
+			"__typename": "AgentDefinition",
+			"id": "695d7c0b17d213e56045761c",
+			"managedAgentInfo": null,
+			"name": "Brand Monitor",
+			"isMuted": false,
+			"isAgentBuilder": false,
+			"isManagedAgent": false,
+			"currentDraftStateGraphId": null,
+			"createdAt": "2026-01-06T21:18:03.521Z",
+			"enabled": true,
+			"stepByStepOnboardingStatus": "Skipped",
+			"description": "Tracks and monitors your brand's online presence.",
+			"instructions": "",
+			"migratedToTasksV2": true,
+			"greetingMessage": "Tell me what to do",
+			"nodeId": "QWdlbnREZWZpbml0aW9uOjY5NWQ3YzBiMTdkMjEzZTU2MDQ1NzYxYw==",
+			"lastRunAt": "2026-01-07T20:32:35.256Z",
+			"summary": "Track your brand's digital footprint",
+			"model": "md",
+			"shouldAskForConfirmation": false,
+			"memories": [
+
+			],
+			"icon": {
+				"color": "Pink",
+				"name": "SunLightModeDayIcon"
+			},
+			"sharing": {
+				"visibility": "private"
+			},
+			"tags": [
+
+			],
+			"flags": {
+				"shouldHideFlowEditor": false,
+				"isSpeechToTextModalMode": false,
+				"defaultSpeechToTextModel": "SingleLanguage"
+			},
+			"permission": "owner",
+			"groupPermissions": [
+
+			],
+			"url": "https://chat.lindy.ai/michael-feiertags-workspace-2/lindy/brand-monitor-695d7c0b17d213e56045761c/tasks",
+			"effectiveUserPermissions": [
+
+			],
+			"userPermissions": [
+
+			],
+			"isFavorite": false,
+			"workspacePermissions": {
+				"access": null
+			},
+			"effectiveWorkspacePermission": {
+				"access": null,
+				"sources": [
+
+				],
+				"folderAccess": null
+			},
+			"ownerInfo": {
+				"__typename": "Identity",
+				"__isNode": "Identity",
+				"__isOwnerInfo": "Identity",
+				"id": "693b2e83e6a088955f32f826",
+				"name": "Michael Feiertag",
+				"email": "m@mftestco.com",
+				"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2"
+			},
+			"lock": null,
+			"stateGraphOverrides": null,
+			"notificationsCount": 4,
+			"parentFolder": null,
+			"hasUsers": false,
+			"hasEditors": false,
+			"canReceiveUserChannelMessages": false,
+			"isCustomizable": false,
+			"evaluations": {
+				"totalCount": 0
+			},
+			"onboardingSubTask": {
+				"id": "695d7c0b17d213e560457666",
+				"nodeId": "U3ViVGFzazo2OTVkN2MwYjE3ZDIxM2U1NjA0NTc2NjY="
+			},
+			"taskOwners": [
+				{
+					"id": "693b2e83e6a088955f32f826",
+					"name": "Michael Feiertag",
+					"email": "m@mftestco.com",
+					"nodeId": "V29ya3NwYWNlTWVtYmVyc2hpcElkZW50aXR5SW5mbzo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY=",
+					"avatar": {
+						"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+						"widthPx": null,
+						"heightPx": null
+					}
+				}
+			],
+			"stateGraph": {
+				"entryPointConversationNode": null,
+				"workflowStartNodes": [
+
+				],
+				"id": "695eb0400d744c78a0259e07",
+				"version": 21,
+				"autoLayoutEnabled": false,
+				"stickyNotes": [
+
+				],
+				"nodeId": "U3RhdGVHcmFwaDo2OTVlYjA0MDBkNzQ0Yzc4YTAyNTllMDc=",
+				"customizationConfig": {
+					"__typename": "StateGraphCustomizationConfig",
+					"nodes": [
+
+					],
+					"edges": [
+
+					]
+				},
+				"edges": [
+					{
+						"__typename": "StandardEdge",
+						"__isNode": "StandardEdge",
+						"id": "695e9e08dad768368b1af972",
+						"type": "Standard",
+						"from": "695e9e08dad768368b1af968",
+						"to": "695eb040cea6cc8b612ce75d",
+						"inflectionY": null,
+						"inflectionX": null,
+						"inflectionTopY": null,
+						"condition": null,
+						"conditionUpdatedAt": null,
+						"conditionsV2UpdatedAt": null,
+						"conditionsV2": null,
+						"label": null,
+						"nodeId": "U3RhbmRhcmRFZGdlOjY5NWU5ZTA4ZGFkNzY4MzY4YjFhZjk3Mg=="
+					},
+					{
+						"__typename": "StandardEdge",
+						"__isNode": "StandardEdge",
+						"id": "695ead1187d7df8d1b0d0877",
+						"type": "Standard",
+						"from": "695d7c0b17d213e560457622",
+						"to": "695ead5187d7df8d1b0d08f8",
+						"inflectionY": null,
+						"inflectionX": null,
+						"inflectionTopY": null,
+						"condition": null,
+						"conditionUpdatedAt": null,
+						"conditionsV2UpdatedAt": null,
+						"conditionsV2": null,
+						"label": null,
+						"nodeId": "U3RhbmRhcmRFZGdlOjY5NWVhZDExODdkN2RmOGQxYjBkMDg3Nw=="
+					},
+					{
+						"__typename": "StandardEdge",
+						"__isNode": "StandardEdge",
+						"id": "695ead5187d7df8d1b0d0902",
+						"type": "Standard",
+						"from": "695ead5187d7df8d1b0d08f8",
+						"to": "695d7c0b17d213e56045762c",
+						"inflectionY": null,
+						"inflectionX": null,
+						"inflectionTopY": null,
+						"condition": null,
+						"conditionUpdatedAt": null,
+						"conditionsV2UpdatedAt": null,
+						"conditionsV2": null,
+						"label": null,
+						"nodeId": "U3RhbmRhcmRFZGdlOjY5NWVhZDUxODdkN2RmOGQxYjBkMDkwMg=="
+					},
+					{
+						"__typename": "StandardEdge",
+						"__isNode": "StandardEdge",
+						"id": "695eaf7acea6cc8b612ce73e",
+						"type": "Standard",
+						"from": "695d7c0b17d213e56045762c",
+						"to": "695e9e08dad768368b1af968",
+						"inflectionY": null,
+						"inflectionX": null,
+						"inflectionTopY": null,
+						"condition": null,
+						"conditionUpdatedAt": null,
+						"conditionsV2UpdatedAt": null,
+						"conditionsV2": null,
+						"label": null,
+						"nodeId": "U3RhbmRhcmRFZGdlOjY5NWVhZjdhY2VhNmNjOGI2MTJjZTczZQ=="
+					},
+					{
+						"__typename": "StandardEdge",
+						"__isNode": "StandardEdge",
+						"id": "695eb040cea6cc8b612ce767",
+						"type": "Standard",
+						"from": "695eb040cea6cc8b612ce75d",
+						"to": "695d7c0b17d213e56045762d",
+						"inflectionY": null,
+						"inflectionX": null,
+						"inflectionTopY": null,
+						"condition": "0=1",
+						"conditionUpdatedAt": "2026-01-07T19:13:33.423Z",
+						"conditionsV2UpdatedAt": null,
+						"conditionsV2": null,
+						"label": null,
+						"nodeId": "U3RhbmRhcmRFZGdlOjY5NWViMDQwY2VhNmNjOGI2MTJjZTc2Nw=="
+					}
+				],
+				"owner": {
+					"id": "693b2e83e6a088955f32f826",
+					"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2"
+				},
+				"ownerInfo": {
+					"__typename": "Identity",
+					"__isNode": "Identity",
+					"id": "693b2e83e6a088955f32f826",
+					"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2"
+				},
+				"nodes": [
+					{
+						"__typename": "EntryPointTriggerNode",
+						"__isNode": "EntryPointTriggerNode",
+						"id": "695d7c0b17d213e560457622",
+						"type": "EntryPoint",
+						"displayName": null,
+						"layer": [
+							"__BASE_LAYER__"
+						],
+						"manuallyPositioned": true,
+						"triggerSetup": {
+							"lindyMessengerConfig": {
+								"messengerId": "b0684c45-8cbc-4faa-930c-74dae47c0e7e",
+								"domains": [
+
+								],
+								"displayName": "Brand Monitor",
+								"accentColor": "#F1F3F5",
+								"promptStarters": [
+
+								],
+								"lindyEmbedConversationStarters": null,
+								"lindyEmbedGreetingMessage": "What brand should I monitor?",
+								"logoUrl": "",
+								"iconUrl": "",
+								"darkMode": false,
+								"positioning": {
+									"type": "embedded"
+								}
+							}
+						},
+						"triggerEnabled": true,
+						"nodeId": "RW50cnlQb2ludFRyaWdnZXJOb2RlOjY5NWViMDQwMGQ3NDRjNzhhMDI1OWUwNzo2OTVkN2MwYjE3ZDIxM2U1NjA0NTc2MjI=",
+						"auth": null,
+						"position": {
+							"x": -320,
+							"y": -64
+						},
+						"triggerDefinition": {
+							"authConfig": null,
+							"name": "onLindyEmbedMessageReceived",
+							"id": "LindyEmbed.onLindyEmbedMessageReceived",
+							"imageUrl": null,
+							"hasPublishableConfig": false,
+							"isHighThroughput": false,
+							"isPremium": true,
+							"nodeId": "VHJpZ2dlckRlZmluaXRpb246TGluZHlFbWJlZC5vbkxpbmR5RW1iZWRNZXNzYWdlUmVjZWl2ZWQ=",
+							"otherObservableChannel": null,
+							"description": "",
+							"displayName": "Lindy Embed",
+							"testingPolicy": {
+								"supportsSyntheticPayload": false
+							},
+							"channel": {
+								"statefulToolKey": "lindyEmbedChannel"
+							},
+							"eventSchema": {
+								"type": "object",
+								"properties": {
+									"messengerConversation": {
+										"type": "object",
+										"properties": {
+											"_id": {
+												"type": "string"
+											},
+											"userDeviceId": {
+												"type": "string"
+											},
+											"messengerId": {
+												"type": "string"
+											},
+											"conversationId": {
+												"type": "string"
+											},
+											"subTaskId": {
+												"type": "string"
+											},
+											"agentDefinitionId": {
+												"type": "string"
+											},
+											"triggerId": {
+												"type": "string"
+											},
+											"ownerId": {
+												"type": "string"
+											},
+											"events": {
+												"type": "array",
+												"items": {
+													"anyOf": [
+														{
+															"type": "object",
+															"properties": {
+																"type": {
+																	"type": "string",
+																	"const": "message"
+																},
+																"timestamp": {
+																	"type": "string"
+																},
+																"metadata": {
+																	"type": "object",
+																	"properties": {
+																		"toolCallId": {
+																			"type": "string"
+																		}
+																	},
+																	"additionalProperties": false
+																},
+																"from": {
+																	"type": "string",
+																	"enum": [
+																		"user",
+																		"bot"
+																	]
+																},
+																"message": {
+																	"type": "string"
+																},
+																"locationData": {
+																	"type": "object",
+																	"properties": {
+																		"origin": {
+																			"type": "string"
+																		},
+																		"path": {
+																			"type": "string"
+																		},
+																		"title": {
+																			"type": "string"
+																		},
+																		"queryParams": {
+																			"type": "object",
+																			"additionalProperties": {
+																				"anyOf": [
+																					{
+																						"type": "string"
+																					},
+																					{
+																						"type": "array",
+																						"items": {
+																							"type": "string"
+																						}
+																					}
+																				]
+																			}
+																		}
+																	},
+																	"additionalProperties": false
+																},
+																"queryParamContext": {
+																	"type": "object",
+																	"additionalProperties": {
+																		"anyOf": [
+																			{
+																				"type": "string"
+																			},
+																			{
+																				"type": "array",
+																				"items": {
+																					"type": "string"
+																				}
+																			}
+																		]
+																	}
+																}
+															},
+															"required": [
+																"type",
+																"from",
+																"message"
+															],
+															"additionalProperties": false
+														},
+														{
+															"type": "object",
+															"properties": {
+																"type": {
+																	"type": "string",
+																	"const": "user_data"
+																},
+																"timestamp": {
+																	"type": "string"
+																},
+																"metadata": {
+																	"type": "object",
+																	"properties": {
+																		"toolCallId": {
+																			"type": "string"
+																		}
+																	},
+																	"additionalProperties": false
+																},
+																"id": {
+																	"type": "string"
+																},
+																"name": {
+																	"type": "string"
+																},
+																"email": {
+																	"type": "string"
+																},
+																"additionalData": {
+																}
+															},
+															"required": [
+																"type"
+															],
+															"additionalProperties": false
+														}
+													]
+												}
+											},
+											"isClosed": {
+												"type": "boolean"
+											}
+										},
+										"required": [
+											"_id",
+											"triggerId",
+											"ownerId",
+											"events"
+										],
+										"additionalProperties": false
+									},
+									"newEvents": {
+										"type": "array",
+										"items": {
+											"anyOf": [
+												{
+													"type": "object",
+													"properties": {
+														"type": {
+															"type": "string",
+															"const": "message"
+														},
+														"timestamp": {
+															"type": "string"
+														},
+														"metadata": {
+															"type": "object",
+															"properties": {
+																"toolCallId": {
+																	"type": "string"
+																}
+															},
+															"additionalProperties": false
+														},
+														"from": {
+															"type": "string",
+															"enum": [
+																"user",
+																"bot"
+															]
+														},
+														"message": {
+															"type": "string"
+														},
+														"locationData": {
+															"type": "object",
+															"properties": {
+																"origin": {
+																	"type": "string"
+																},
+																"path": {
+																	"type": "string"
+																},
+																"title": {
+																	"type": "string"
+																},
+																"queryParams": {
+																	"type": "object",
+																	"additionalProperties": {
+																		"anyOf": [
+																			{
+																				"type": "string"
+																			},
+																			{
+																				"type": "array",
+																				"items": {
+																					"type": "string"
+																				}
+																			}
+																		]
+																	}
+																}
+															},
+															"additionalProperties": false
+														},
+														"queryParamContext": {
+															"type": "object",
+															"additionalProperties": {
+																"anyOf": [
+																	{
+																		"type": "string"
+																	},
+																	{
+																		"type": "array",
+																		"items": {
+																			"type": "string"
+																		}
+																	}
+																]
+															}
+														}
+													},
+													"required": [
+														"type",
+														"from",
+														"message"
+													],
+													"additionalProperties": false
+												},
+												{
+													"type": "object",
+													"properties": {
+														"type": {
+															"type": "string",
+															"const": "user_data"
+														},
+														"timestamp": {
+															"type": "string"
+														},
+														"metadata": {
+															"type": "object",
+															"properties": {
+																"toolCallId": {
+																	"type": "string"
+																}
+															},
+															"additionalProperties": false
+														},
+														"id": {
+															"type": "string"
+														},
+														"name": {
+															"type": "string"
+														},
+														"email": {
+															"type": "string"
+														},
+														"additionalData": {
+														}
+													},
+													"required": [
+														"type"
+													],
+													"additionalProperties": false
+												}
+											]
+										}
+									}
+								},
+								"required": [
+									"messengerConversation",
+									"newEvents"
+								],
+								"additionalProperties": false,
+								"lindyMetadata": {
+									"fieldsHiddenFromUI": [
+										"*"
+									]
+								}
+							},
+							"fields": [
+								{
+									"__typename": "TriggerFieldLindyEmbedConfig",
+									"key": "lindyMessengerConfig",
+									"label": "Embed Configuration",
+									"placeholder": null,
+									"description": null,
+									"tooltip": null,
+									"isRequired": true,
+									"canBeSharedWithTemplate": false,
+									"type": "lindy_embed_custom_config",
+									"fields": [
+
+									]
+								},
+								{
+									"__typename": "TriggerFieldAutoObserve",
+									"key": "onAutoObserve",
+									"label": "Follow-up message behavior",
+									"placeholder": null,
+									"description": null,
+									"tooltip": null,
+									"isRequired": true,
+									"canBeSharedWithTemplate": false,
+									"type": "auto-observe",
+									"defaultValue": "same-task",
+									"fields": [
+
+									]
+								}
+							],
+							"tool": {
+								"tool": "LindyEmbed",
+								"displayName": "Lindy Embed",
+								"nodeId": "VG9vbDpMaW5keUVtYmVk"
+							}
+						},
+						"trigger": {
+							"id": "695eae12babdfb903ac472cc",
+							"enabled": true,
+							"isConfigured": true,
+							"isPendingVerification": false,
+							"nodeId": "VHJpZ2dlcjo2OTVlYWUxMmJhYmRmYjkwM2FjNDcyY2M=",
+							"setup": {
+								"actionArgs": {
+									"lindyMessengerConfig": {
+										"messengerId": "b0684c45-8cbc-4faa-930c-74dae47c0e7e",
+										"domains": [
+
+										],
+										"displayName": "Brand Monitor",
+										"accentColor": "#F1F3F5",
+										"promptStarters": [
+
+										],
+										"lindyEmbedConversationStarters": null,
+										"lindyEmbedGreetingMessage": "What brand should I monitor?",
+										"logoUrl": "",
+										"iconUrl": "",
+										"darkMode": false,
+										"positioning": {
+											"type": "embedded"
+										}
+									},
+									"onAutoObserve": "same-task"
+								},
+								"actionName": "onLindyEmbedMessageReceived",
+								"toolName": "LindyEmbed"
+							},
+							"owner": {
+								"id": "693b2e83e6a088955f32f826",
+								"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2"
+							},
+							"ownerInfo": {
+								"__typename": "Identity",
+								"__isNode": "Identity",
+								"id": "693b2e83e6a088955f32f826",
+								"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2"
+							}
+						}
+					},
+					{
+						"__typename": "ActionNode",
+						"__isNode": "ActionNode",
+						"id": "695d7c0b17d213e56045762c",
+						"type": "Action",
+						"displayName": "Search the Internet for Business News",
+						"layer": [
+							"__BASE_LAYER__"
+						],
+						"guidelines": null,
+						"manuallyPositioned": true,
+						"model": null,
+						"occurrence": 1,
+						"statefulToolOccurrence": null,
+						"requireConfirmation": "Never",
+						"specialProperties": null,
+						"nodeId": "QWN0aW9uTm9kZTo2OTVlYjA0MDBkNzQ0Yzc4YTAyNTllMDc6Njk1ZDdjMGIxN2QyMTNlNTYwNDU3NjJj",
+						"auth": null,
+						"position": {
+							"x": -328,
+							"y": 256
+						},
+						"actionConfiguration": [
+							{
+								"type": "ai",
+								"allowAdditionalArrayEntries": false,
+								"path": [
+									"query"
+								],
+								"prompt": [
+									"You are a Brand Monitoring and Report Assistant. Your responsibilities are\n\n1. Brand Monitoring\n   - Track and monitor a brand’s online presence by searching the internet for mentions, reviews, and discussions.\n   - Steps:\n     1. Search across:\n        - Social media platforms\n        - News sites and blogs\n        - Review platforms\n        - Forums and community boards\n     2. Collect:\n        - Source of mention\n        - Context (positive, negative, neutral)\n        - Date and time\n        - Link to the mention\n\n   - User Input:\n     Brand Name: ",
+									{
+										"nodeId": "695ead5187d7df8d1b0d08f8",
+										"path": "#",
+										"type": "output",
+										"displayName": "output"
+									},
+									"\n     Keywords (optional): Laundry Detergent\n\n2. Report Generation\n   - Create a summary based on the brand monitoring data.\n   - Steps:\n     - Overview: Briefly summarize online presence and sentiment trends (positive, negative, neutral).\n     - Key Insights: Highlight top positive mentions, significant criticisms, and notable discussions.\n     - Trends: Identify recurring themes and frequently discussed topics.\n     - Metrics: Provide total mentions, sentiment breakdown, and most active platforms.\n     - Recommendations: Suggest actions to improve or leverage brand presence.\n\n   - Present the report in a clear, structured format with optional visuals for trends and metrics.",
+									{
+										"nodeId": "695ead5187d7df8d1b0d08f8",
+										"path": "#",
+										"type": "output",
+										"displayName": "output"
+									},
+									{
+										"nodeId": "695ead5187d7df8d1b0d08f8",
+										"path": "#",
+										"type": "output",
+										"displayName": "output"
+									}
+								],
+								"unionType": null,
+								"manualResult": {
+									"isUndefined": true,
+									"isNull": false,
+									"value": null
+								}
+							},
+							{
+								"type": "ai",
+								"allowAdditionalArrayEntries": false,
+								"path": [
+									"engineOptions"
+								],
+								"prompt": [
+
+								],
+								"unionType": null,
+								"manualResult": {
+									"isUndefined": true,
+									"isNull": false,
+									"value": null
+								}
+							}
+						],
+						"knowledgeSources": [
+
+						],
+						"actionDefinition": {
+							"createdByNodeId": null,
+							"statefulToolKey": null,
+							"action": {
+								"authConfig": null,
+								"dynamicLoaders": null,
+								"key": "search",
+								"tool": "Browser",
+								"toolDisplayName": "Web browser",
+								"imageUrl": null,
+								"description": "Search the Internet using a variety of search engines.",
+								"displayName": "Search the Internet",
+								"outputSchema": {
+								},
+								"deprecated": false,
+								"observableChannel": null,
+								"hasSideEffects": false,
+								"isPremium": true,
+								"premiumActionCost": 1,
+								"showActionGuidelines": false,
+								"nodeId": "QWN0aW9uRGV0YWlsczpCcm93c2VyLnNlYXJjaC42OTVkN2MwYjE3ZDIxM2U1NjA0NTc2MmMuNjk1ZDdjMGIxN2QyMTNlNTYwNDU3NjFj",
+								"dependencies": [
+
+								],
+								"inputSchema": {
+									"type": "object",
+									"required": [
+										"query"
+									],
+									"properties": {
+										"query": {
+											"type": "string",
+											"description": "The search query."
+										},
+										"engineOptions": {
+											"anyOf": [
+												{
+													"type": "object",
+													"properties": {
+														"engine": {
+															"type": "string",
+															"const": "bing"
+														},
+														"location": {
+															"type": "string",
+															"description": "e.g San Francisco, CA"
+														}
+													},
+													"required": [
+														"engine"
+													],
+													"additionalProperties": false,
+													"lindyMetadata": {
+														"displayName": "Bing"
+													}
+												},
+												{
+													"type": "object",
+													"properties": {
+														"engine": {
+															"type": "string",
+															"const": "events"
+														},
+														"location": {
+															"type": "string",
+															"description": "e.g San Francisco, CA"
+														}
+													},
+													"required": [
+														"engine"
+													],
+													"additionalProperties": false,
+													"lindyMetadata": {
+														"displayName": "Events"
+													}
+												},
+												{
+													"type": "object",
+													"properties": {
+														"engine": {
+															"type": "string",
+															"const": "images"
+														},
+														"location": {
+															"type": "string",
+															"description": "e.g San Francisco, CA"
+														}
+													},
+													"required": [
+														"engine"
+													],
+													"additionalProperties": false,
+													"lindyMetadata": {
+														"displayName": "Images"
+													}
+												},
+												{
+													"type": "object",
+													"properties": {
+														"engine": {
+															"type": "string",
+															"const": "jobs"
+														},
+														"location": {
+															"type": "string",
+															"description": "e.g San Francisco, CA"
+														}
+													},
+													"required": [
+														"engine"
+													],
+													"additionalProperties": false,
+													"lindyMetadata": {
+														"displayName": "Jobs"
+													}
+												},
+												{
+													"type": "object",
+													"properties": {
+														"engine": {
+															"type": "string",
+															"const": "news"
+														},
+														"gl": {
+															"type": "string",
+															"description": "Parameter defines the country to use for the Google News search. It's a two-letter country code. (e.g., us for the United States (default), uk for United Kingdom, or fr for France). Head to the [Google countries page](https://serpapi.com/google-countries) for a full list of supported Google News countries."
+														},
+														"location": {
+															"type": "string",
+															"description": "e.g San Francisco, CA"
+														}
+													},
+													"required": [
+														"engine"
+													],
+													"additionalProperties": false,
+													"lindyMetadata": {
+														"displayName": "News"
+													}
+												},
+												{
+													"type": "object",
+													"properties": {
+														"engine": {
+															"type": "string",
+															"const": "shopping"
+														},
+														"location": {
+															"type": "string",
+															"description": "e.g San Francisco, CA"
+														}
+													},
+													"required": [
+														"engine"
+													],
+													"additionalProperties": false,
+													"lindyMetadata": {
+														"displayName": "Shopping"
+													}
+												},
+												{
+													"type": "object",
+													"properties": {
+														"engine": {
+															"type": "string",
+															"const": "yelp"
+														},
+														"location": {
+															"type": "string",
+															"description": "e.g San Francisco, CA"
+														}
+													},
+													"required": [
+														"engine"
+													],
+													"additionalProperties": false,
+													"lindyMetadata": {
+														"displayName": "Yelp"
+													}
+												},
+												{
+													"type": "object",
+													"properties": {
+														"engine": {
+															"type": "string",
+															"const": "duckduckgo"
+														},
+														"kl": {
+															"type": "string",
+															"description": "e.g. us-en"
+														}
+													},
+													"required": [
+														"engine"
+													],
+													"additionalProperties": false,
+													"lindyMetadata": {
+														"displayName": "DuckDuckGo"
+													}
+												},
+												{
+													"type": "object",
+													"properties": {
+														"engine": {
+															"type": "string",
+															"const": "ebay"
+														},
+														"ebay_domain": {
+															"type": "string",
+															"description": "e.g. ebay.com"
+														}
+													},
+													"required": [
+														"engine"
+													],
+													"additionalProperties": false,
+													"lindyMetadata": {
+														"displayName": "eBay"
+													}
+												},
+												{
+													"type": "object",
+													"properties": {
+														"engine": {
+															"type": "string",
+															"const": "hotels"
+														},
+														"check_in_date": {
+															"type": "string",
+															"description": "YYYY-MM-DD"
+														},
+														"check_out_date": {
+															"type": "string",
+															"description": "YYYY-MM-DD"
+														},
+														"adults": {
+															"type": "number"
+														},
+														"currency": {
+															"type": "string",
+															"description": "e.g. USD, EUR, GBP"
+														}
+													},
+													"required": [
+														"engine",
+														"check_in_date",
+														"check_out_date"
+													],
+													"additionalProperties": false,
+													"lindyMetadata": {
+														"displayName": "Hotels"
+													}
+												},
+												{
+													"type": "object",
+													"properties": {
+														"engine": {
+															"type": "string",
+															"const": "flights"
+														},
+														"departure_id": {
+															"type": "string",
+															"description": "e.g. SFO"
+														},
+														"arrival_id": {
+															"type": "string",
+															"description": "e.g. LHR"
+														},
+														"outbound_date": {
+															"type": "string",
+															"description": "YYYY-MM-DD"
+														},
+														"return_date": {
+															"type": "string",
+															"description": "YYYY-MM-DD"
+														},
+														"currency": {
+															"type": "string"
+														}
+													},
+													"required": [
+														"engine",
+														"departure_id",
+														"arrival_id",
+														"outbound_date"
+													],
+													"additionalProperties": false,
+													"lindyMetadata": {
+														"displayName": "Flights"
+													}
+												},
+												{
+													"type": "object",
+													"properties": {
+														"engine": {
+															"type": "string",
+															"const": "maps"
+														},
+														"ll": {
+															"type": "string",
+															"description": "e.g. @37.7676316,-122.4183248,18z"
+														}
+													},
+													"required": [
+														"engine",
+														"ll"
+													],
+													"additionalProperties": false,
+													"lindyMetadata": {
+														"displayName": "Maps"
+													}
+												},
+												{
+													"type": "object",
+													"properties": {
+														"engine": {
+															"type": "string",
+															"const": "youtube"
+														},
+														"resultType": {
+															"type": "string",
+															"enum": [
+																"video",
+																"channel",
+																"playlist"
+															]
+														}
+													},
+													"required": [
+														"engine"
+													],
+													"additionalProperties": false,
+													"lindyMetadata": {
+														"displayName": "YouTube"
+													}
+												},
+												{
+													"type": "object",
+													"properties": {
+														"engine": {
+															"type": "string",
+															"const": "google"
+														},
+														"location": {
+															"type": "string",
+															"description": "e.g San Francisco, CA"
+														}
+													},
+													"required": [
+														"engine"
+													],
+													"additionalProperties": false,
+													"lindyMetadata": {
+														"displayName": "Google"
+													}
+												}
+											],
+											"default": {
+												"engine": "google"
+											},
+											"description": "Choose the engine most relevant to the query.\nE.g. Whenever the user asks for news on a specific topic, use the news engine to search for the latest articles.\nIf they are searching for products to buy, use the shopping engine. If you're not sure, use google.",
+											"lindyMetadata": {
+												"displayName": "Search engine",
+												"userDescription": "The search engine to use for the query."
+											}
+										}
+									},
+									"additionalProperties": false
+								},
+								"outputProperties": [
+									{
+										"displayName": "output",
+										"type": "Unknown",
+										"value": "#",
+										"schema": {
+										}
+									}
+								],
+								"inputTree": null
+							},
+							"tool": {
+								"description": "Visit webpages (including PDFs), extract information from them, and search the Internet.",
+								"displayName": "Web browser",
+								"isPopular": true,
+								"tool": "Browser",
+								"nodeId": "VG9vbDpCcm93c2Vy"
+							}
+						}
+					},
+					{
+						"__typename": "ActionNode",
+						"__isNode": "ActionNode",
+						"id": "695d7c0b17d213e56045762d",
+						"type": "Action",
+						"displayName": "Send the summary",
+						"layer": [
+							"__BASE_LAYER__"
+						],
+						"guidelines": null,
+						"manuallyPositioned": true,
+						"model": null,
+						"occurrence": 1,
+						"statefulToolOccurrence": null,
+						"requireConfirmation": "Never",
+						"specialProperties": null,
+						"nodeId": "QWN0aW9uTm9kZTo2OTVlYjA0MDBkNzQ0Yzc4YTAyNTllMDc6Njk1ZDdjMGIxN2QyMTNlNTYwNDU3NjJk",
+						"auth": null,
+						"position": {
+							"x": -328,
+							"y": 984
+						},
+						"actionConfiguration": [
+							{
+								"type": "ai",
+								"allowAdditionalArrayEntries": false,
+								"path": [
+									"to"
+								],
+								"prompt": [
+									"Michael.feiertag@gmail.com"
+								],
+								"unionType": null,
+								"manualResult": {
+									"isUndefined": true,
+									"isNull": false,
+									"value": null
+								}
+							},
+							{
+								"type": "manual",
+								"allowAdditionalArrayEntries": false,
+								"path": [
+									"cc"
+								],
+								"prompt": [
+
+								],
+								"unionType": null,
+								"manualResult": {
+									"isUndefined": false,
+									"isNull": false,
+									"value": [
+
+									]
+								}
+							},
+							{
+								"type": "manual",
+								"allowAdditionalArrayEntries": false,
+								"path": [
+									"bcc"
+								],
+								"prompt": [
+
+								],
+								"unionType": null,
+								"manualResult": {
+									"isUndefined": false,
+									"isNull": false,
+									"value": [
+
+									]
+								}
+							},
+							{
+								"type": "ai",
+								"allowAdditionalArrayEntries": false,
+								"path": [
+									"subject"
+								],
+								"prompt": [
+									"Your Weekly Business Insights: Key Trends and Updates"
+								],
+								"unionType": null,
+								"manualResult": {
+									"isUndefined": true,
+									"isNull": false,
+									"value": null
+								}
+							},
+							{
+								"type": "ai",
+								"allowAdditionalArrayEntries": false,
+								"path": [
+									"body"
+								],
+								"prompt": [
+									"Compose an email using the provided business insights and trends. Ensure a clear structure with an introduction, the main insights, and a professional closing."
+								],
+								"unionType": null,
+								"manualResult": {
+									"isUndefined": true,
+									"isNull": false,
+									"value": null
+								}
+							},
+							{
+								"type": "ai",
+								"allowAdditionalArrayEntries": false,
+								"path": [
+									"fromName"
+								],
+								"prompt": [
+
+								],
+								"unionType": null,
+								"manualResult": {
+									"isUndefined": true,
+									"isNull": false,
+									"value": null
+								}
+							},
+							{
+								"type": "manual",
+								"allowAdditionalArrayEntries": false,
+								"path": [
+									"sig"
+								],
+								"prompt": [
+
+								],
+								"unionType": null,
+								"manualResult": {
+									"isUndefined": true,
+									"isNull": false,
+									"value": null
+								}
+							}
+						],
+						"knowledgeSources": [
+
+						],
+						"actionDefinition": {
+							"createdByNodeId": null,
+							"statefulToolKey": null,
+							"tool": {
+								"description": "Manage your custom Lindy mailbox ending with @lindymail.ai",
+								"displayName": "Lindy mail",
+								"isPopular": false,
+								"tool": "LindyMail",
+								"nodeId": "VG9vbDpMaW5keU1haWw="
+							},
+							"action": {
+								"authConfig": null,
+								"dynamicLoaders": null,
+								"key": "send",
+								"tool": "LindyMail",
+								"toolDisplayName": "Lindy mail",
+								"imageUrl": null,
+								"description": "Send email from an @lindymail.ai email",
+								"displayName": "Send email",
+								"outputSchema": {
+									"lindyMetadata": {
+										"statefulToolKey": "lindyMailChannel"
+									}
+								},
+								"deprecated": false,
+								"hasSideEffects": true,
+								"isPremium": true,
+								"premiumActionCost": 1,
+								"showActionGuidelines": false,
+								"nodeId": "QWN0aW9uRGV0YWlsczpMaW5keU1haWwuc2VuZC42OTVkN2MwYjE3ZDIxM2U1NjA0NTc2MmQuNjk1ZDdjMGIxN2QyMTNlNTYwNDU3NjFj",
+								"dependencies": [
+
+								],
+								"inputSchema": {
+									"type": "object",
+									"required": [
+										"to",
+										"subject",
+										"body",
+										"from"
+									],
+									"properties": {
+										"to": {
+											"type": "array",
+											"description": "The recipient(s) of the email.",
+											"items": {
+												"type": "string",
+												"lindyMetadata": {
+													"displayName": "Email address"
+												}
+											}
+										},
+										"cc": {
+											"type": "array",
+											"default": [
+
+											],
+											"description": "The CC recipient(s) of the email.",
+											"items": {
+												"type": "string",
+												"lindyMetadata": {
+													"displayName": "Email address"
+												}
+											}
+										},
+										"bcc": {
+											"type": "array",
+											"default": [
+
+											],
+											"description": "The BCC recipient(s) of the email.",
+											"items": {
+												"type": "string",
+												"lindyMetadata": {
+													"displayName": "Email address"
+												}
+											}
+										},
+										"subject": {
+											"type": "string",
+											"description": "The subject of the email."
+										},
+										"body": {
+											"type": "string",
+											"description": "Body of the email, in markdown, html, or plain text."
+										},
+										"from": {
+											"type": "string",
+											"enum": [
+												"default-m.w@lindymail.ai"
+											]
+										},
+										"fromName": {
+											"type": "string",
+											"description": "Name (alias) of the sender. Defaults to your own name. Omit unless instructed otherwise.",
+											"lindyMetadata": {
+												"userDescription": "Name (alias) of the sender. Defaults to the name of the agent."
+											}
+										},
+										"sig": {
+											"type": [
+												"string",
+												"null"
+											],
+											"description": "The signature for the email.",
+											"lindyMetadata": {
+												"displayName": "Signature",
+												"initialFieldValue": "Sent via [Lindy](https://lindy.ai)",
+												"userDescription": "A custom signature to include at the end of the email. Supports [Markdown](https://www.markdownguide.org/basic-syntax/)."
+											}
+										}
+									},
+									"additionalProperties": false
+								},
+								"observableChannel": {
+									"agentMessageReceivedSchema": {
+										"type": "object",
+										"properties": {
+											"email": {
+												"type": "object",
+												"properties": {
+													"id": {
+														"type": "string"
+													},
+													"from": {
+														"type": "string"
+													},
+													"to": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														},
+														"default": [
+
+														]
+													},
+													"cc": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														},
+														"default": [
+
+														]
+													},
+													"bcc": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														},
+														"default": [
+
+														]
+													},
+													"subject": {
+														"type": "string"
+													},
+													"mimeType": {
+														"type": [
+															"string",
+															"null"
+														]
+													},
+													"bodyRaw": {
+														"type": [
+															"string",
+															"null"
+														]
+													},
+													"bodyAsText": {
+														"type": "string",
+														"lindyMetadata": {
+															"displayName": "Body"
+														}
+													},
+													"snippet": {
+														"type": "string",
+														"description": "A short part of the email body."
+													},
+													"date": {
+														"type": "string",
+														"format": "date-time"
+													},
+													"attachments": {
+														"type": "array",
+														"items": {
+														},
+														"default": [
+
+														]
+													},
+													"inReplyTo": {
+														"type": "string"
+													},
+													"replyTo": {
+														"type": "string"
+													},
+													"references": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														},
+														"default": [
+
+														]
+													},
+													"threadId": {
+														"type": "string"
+													},
+													"labelIds": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														},
+														"description": "list of IDs of labels applied to this email.",
+														"lindyMetadata": {
+															"displayName": "Labels"
+														}
+													},
+													"headers": {
+														"type": "object",
+														"additionalProperties": {
+															"type": "string"
+														},
+														"default": {
+														}
+													},
+													"isDraft": {
+														"type": "boolean"
+													},
+													"markdown": {
+														"type": "string"
+													},
+													"principal": {
+														"type": "string"
+													},
+													"verificationFailed": {
+														"type": "boolean"
+													},
+													"uploadedAttachments": {
+														"type": "array",
+														"items": {
+														}
+													}
+												},
+												"required": [
+													"id",
+													"from",
+													"subject",
+													"bodyAsText",
+													"snippet",
+													"principal"
+												],
+												"additionalProperties": false,
+												"lindyMetadata": {
+													"significantFields": [
+														"subject",
+														"from",
+														"to",
+														"id"
+													]
+												}
+											}
+										},
+										"required": [
+											"email"
+										],
+										"additionalProperties": false
+									},
+									"immediateEdgeLabel": "After email sent",
+									"observableEdgeLabel": "After reply received",
+									"statefulToolKey": "lindyMailChannel"
+								},
+								"outputProperties": [
+									{
+										"displayName": "output",
+										"type": "Unknown",
+										"value": "#",
+										"schema": {
+											"lindyMetadata": {
+												"statefulToolKey": "lindyMailChannel"
+											}
+										}
+									}
+								],
+								"inputTree": null
+							}
+						}
+					},
+					{
+						"__typename": "ActionNode",
+						"__isNode": "ActionNode",
+						"id": "695e9e08dad768368b1af968",
+						"type": "Action",
+						"displayName": null,
+						"layer": [
+							"__BASE_LAYER__"
+						],
+						"guidelines": null,
+						"manuallyPositioned": true,
+						"model": null,
+						"occurrence": 1,
+						"statefulToolOccurrence": null,
+						"requireConfirmation": "Never",
+						"specialProperties": null,
+						"nodeId": "QWN0aW9uTm9kZTo2OTVlYjA0MDBkNzQ0Yzc4YTAyNTllMDc6Njk1ZTllMDhkYWQ3NjgzNjhiMWFmOTY4",
+						"auth": null,
+						"position": {
+							"x": -328,
+							"y": 616
+						},
+						"actionConfiguration": [
+							{
+								"type": "ai",
+								"allowAdditionalArrayEntries": false,
+								"path": [
+									"text"
+								],
+								"prompt": [
+									"Compose an message using the provided business insights and trends. Ensure a clear structure with an introduction, the main insights, and a professional closing."
+								],
+								"unionType": null,
+								"manualResult": {
+									"isUndefined": true,
+									"isNull": false,
+									"value": null
+								}
+							}
+						],
+						"knowledgeSources": [
+
+						],
+						"actionDefinition": {
+							"createdByNodeId": "695d7c0b17d213e560457622",
+							"statefulToolKey": "lindyEmbedChannel",
+							"tool": {
+								"description": "Add this agent to a public website, enabling external users to send messages to your agent.",
+								"displayName": "Lindy Embed",
+								"isPopular": true,
+								"tool": "LindyEmbed",
+								"nodeId": "VG9vbDpMaW5keUVtYmVk"
+							},
+							"action": {
+								"authConfig": null,
+								"dynamicLoaders": null,
+								"key": "SendToLindyMessenger",
+								"tool": "LindyEmbed",
+								"toolDisplayName": "Lindy Embed",
+								"imageUrl": null,
+								"description": "Sends a reply to the embedded Lindy",
+								"displayName": "Send reply",
+								"outputSchema": {
+									"type": "string"
+								},
+								"deprecated": false,
+								"hasSideEffects": false,
+								"isPremium": false,
+								"premiumActionCost": null,
+								"showActionGuidelines": false,
+								"nodeId": "QWN0aW9uRGV0YWlsczpMaW5keUVtYmVkLlNlbmRUb0xpbmR5TWVzc2VuZ2VyLjY5NWQ3YzBiMTdkMjEzZTU2MDQ1NzYxYy42OTVkN2MwYjE3ZDIxM2U1NjA0NTc2MjI=",
+								"dependencies": [
+
+								],
+								"inputSchema": {
+									"type": "object",
+									"required": [
+										"text"
+									],
+									"properties": {
+										"text": {
+											"type": "string",
+											"description": "The message to send. Supports [Markdown](https://www.markdownguide.org/basic-syntax/).",
+											"lindyMetadata": {
+												"displayName": "Message"
+											}
+										}
+									},
+									"additionalProperties": false
+								},
+								"observableChannel": {
+									"agentMessageReceivedSchema": {
+										"type": "object",
+										"properties": {
+											"messengerConversation": {
+												"type": "object",
+												"properties": {
+													"_id": {
+														"type": "string"
+													},
+													"userDeviceId": {
+														"type": "string"
+													},
+													"messengerId": {
+														"type": "string"
+													},
+													"conversationId": {
+														"type": "string"
+													},
+													"subTaskId": {
+														"type": "string"
+													},
+													"agentDefinitionId": {
+														"type": "string"
+													},
+													"triggerId": {
+														"type": "string"
+													},
+													"ownerId": {
+														"type": "string"
+													},
+													"events": {
+														"type": "array",
+														"items": {
+															"anyOf": [
+																{
+																	"type": "object",
+																	"properties": {
+																		"type": {
+																			"type": "string",
+																			"const": "message"
+																		},
+																		"timestamp": {
+																			"type": "string"
+																		},
+																		"metadata": {
+																			"type": "object",
+																			"properties": {
+																				"toolCallId": {
+																					"type": "string"
+																				}
+																			},
+																			"additionalProperties": false
+																		},
+																		"from": {
+																			"type": "string",
+																			"enum": [
+																				"user",
+																				"bot"
+																			]
+																		},
+																		"message": {
+																			"type": "string"
+																		},
+																		"locationData": {
+																			"type": "object",
+																			"properties": {
+																				"origin": {
+																					"type": "string"
+																				},
+																				"path": {
+																					"type": "string"
+																				},
+																				"title": {
+																					"type": "string"
+																				},
+																				"queryParams": {
+																					"type": "object",
+																					"additionalProperties": {
+																						"anyOf": [
+																							{
+																								"type": "string"
+																							},
+																							{
+																								"type": "array",
+																								"items": {
+																									"type": "string"
+																								}
+																							}
+																						]
+																					}
+																				}
+																			},
+																			"additionalProperties": false
+																		},
+																		"queryParamContext": {
+																			"type": "object",
+																			"additionalProperties": {
+																				"anyOf": [
+																					{
+																						"type": "string"
+																					},
+																					{
+																						"type": "array",
+																						"items": {
+																							"type": "string"
+																						}
+																					}
+																				]
+																			}
+																		}
+																	},
+																	"required": [
+																		"type",
+																		"from",
+																		"message"
+																	],
+																	"additionalProperties": false
+																},
+																{
+																	"type": "object",
+																	"properties": {
+																		"type": {
+																			"type": "string",
+																			"const": "user_data"
+																		},
+																		"timestamp": {
+																			"type": "string"
+																		},
+																		"metadata": {
+																			"type": "object",
+																			"properties": {
+																				"toolCallId": {
+																					"type": "string"
+																				}
+																			},
+																			"additionalProperties": false
+																		},
+																		"id": {
+																			"type": "string"
+																		},
+																		"name": {
+																			"type": "string"
+																		},
+																		"email": {
+																			"type": "string"
+																		},
+																		"additionalData": {
+																		}
+																	},
+																	"required": [
+																		"type"
+																	],
+																	"additionalProperties": false
+																}
+															]
+														}
+													},
+													"isClosed": {
+														"type": "boolean"
+													}
+												},
+												"required": [
+													"_id",
+													"triggerId",
+													"ownerId",
+													"events"
+												],
+												"additionalProperties": false
+											},
+											"newEvents": {
+												"type": "array",
+												"items": {
+													"anyOf": [
+														{
+															"type": "object",
+															"properties": {
+																"type": {
+																	"type": "string",
+																	"const": "message"
+																},
+																"timestamp": {
+																	"type": "string"
+																},
+																"metadata": {
+																	"type": "object",
+																	"properties": {
+																		"toolCallId": {
+																			"type": "string"
+																		}
+																	},
+																	"additionalProperties": false
+																},
+																"from": {
+																	"type": "string",
+																	"enum": [
+																		"user",
+																		"bot"
+																	]
+																},
+																"message": {
+																	"type": "string"
+																},
+																"locationData": {
+																	"type": "object",
+																	"properties": {
+																		"origin": {
+																			"type": "string"
+																		},
+																		"path": {
+																			"type": "string"
+																		},
+																		"title": {
+																			"type": "string"
+																		},
+																		"queryParams": {
+																			"type": "object",
+																			"additionalProperties": {
+																				"anyOf": [
+																					{
+																						"type": "string"
+																					},
+																					{
+																						"type": "array",
+																						"items": {
+																							"type": "string"
+																						}
+																					}
+																				]
+																			}
+																		}
+																	},
+																	"additionalProperties": false
+																},
+																"queryParamContext": {
+																	"type": "object",
+																	"additionalProperties": {
+																		"anyOf": [
+																			{
+																				"type": "string"
+																			},
+																			{
+																				"type": "array",
+																				"items": {
+																					"type": "string"
+																				}
+																			}
+																		]
+																	}
+																}
+															},
+															"required": [
+																"type",
+																"from",
+																"message"
+															],
+															"additionalProperties": false
+														},
+														{
+															"type": "object",
+															"properties": {
+																"type": {
+																	"type": "string",
+																	"const": "user_data"
+																},
+																"timestamp": {
+																	"type": "string"
+																},
+																"metadata": {
+																	"type": "object",
+																	"properties": {
+																		"toolCallId": {
+																			"type": "string"
+																		}
+																	},
+																	"additionalProperties": false
+																},
+																"id": {
+																	"type": "string"
+																},
+																"name": {
+																	"type": "string"
+																},
+																"email": {
+																	"type": "string"
+																},
+																"additionalData": {
+																}
+															},
+															"required": [
+																"type"
+															],
+															"additionalProperties": false
+														}
+													]
+												}
+											}
+										},
+										"required": [
+											"messengerConversation",
+											"newEvents"
+										],
+										"additionalProperties": false,
+										"lindyMetadata": {
+											"fieldsHiddenFromUI": [
+												"*"
+											]
+										}
+									},
+									"immediateEdgeLabel": "After message sent",
+									"observableEdgeLabel": "After reply received",
+									"statefulToolKey": "lindyEmbedChannel"
+								},
+								"outputProperties": [
+									{
+										"displayName": "output",
+										"type": "String",
+										"value": "#",
+										"schema": {
+											"type": "string"
+										}
+									}
+								],
+								"inputTree": null
+							}
+						}
+					},
+					{
+						"__typename": "ActionNode",
+						"__isNode": "ActionNode",
+						"id": "695ead5187d7df8d1b0d08f8",
+						"type": "Action",
+						"displayName": null,
+						"layer": [
+							"__BASE_LAYER__"
+						],
+						"guidelines": null,
+						"manuallyPositioned": true,
+						"actionConfiguration": [
+
+						],
+						"model": null,
+						"occurrence": 1,
+						"statefulToolOccurrence": null,
+						"requireConfirmation": "Never",
+						"specialProperties": null,
+						"nodeId": "QWN0aW9uTm9kZTo2OTVlYjA0MDBkNzQ0Yzc4YTAyNTllMDc6Njk1ZWFkNTE4N2Q3ZGY4ZDFiMGQwOGY4",
+						"auth": null,
+						"position": {
+							"x": -328,
+							"y": 144
+						},
+						"knowledgeSources": [
+
+						],
+						"actionDefinition": {
+							"createdByNodeId": null,
+							"statefulToolKey": "userChannel",
+							"tool": {
+								"description": "The conversation with the user on chat.lindy.ai",
+								"displayName": "Chat with this Agent",
+								"isPopular": true,
+								"tool": "Channels",
+								"nodeId": "VG9vbDpDaGFubmVscw=="
+							},
+							"action": {
+								"authConfig": null,
+								"dynamicLoaders": null,
+								"key": "ObserveUser",
+								"tool": "Channels",
+								"toolDisplayName": "Chat with this Agent",
+								"imageUrl": null,
+								"description": "Observe messages from the user chat.",
+								"displayName": "Observe messages",
+								"outputSchema": {
+									"type": "string"
+								},
+								"deprecated": false,
+								"hasSideEffects": false,
+								"isPremium": false,
+								"premiumActionCost": null,
+								"showActionGuidelines": false,
+								"nodeId": "QWN0aW9uRGV0YWlsczpDaGFubmVscy5PYnNlcnZlVXNlci42OTVlYWQ1MTg3ZDdkZjhkMWIwZDA4ZjguNjk1ZDdjMGIxN2QyMTNlNTYwNDU3NjFj",
+								"dependencies": [
+
+								],
+								"inputSchema": {
+									"type": "object",
+									"required": [
+
+									],
+									"properties": {
+									},
+									"additionalProperties": false
+								},
+								"observableChannel": {
+									"agentMessageReceivedSchema": {
+										"type": "object",
+										"properties": {
+											"text": {
+												"type": "string",
+												"lindyMetadata": {
+													"displayName": "Message"
+												}
+											},
+											"attachments": {
+												"type": "object",
+												"additionalProperties": {
+													"lindyMetadata": {
+														"statefulToolKey": "lindyFileAttachment"
+													}
+												}
+											},
+											"isOnboarding": {
+												"type": "boolean"
+											}
+										},
+										"required": [
+											"text"
+										],
+										"additionalProperties": false
+									},
+									"immediateEdgeLabel": "After observation starts",
+									"observableEdgeLabel": "After message received",
+									"statefulToolKey": "userChannel"
+								},
+								"outputProperties": [
+									{
+										"displayName": "output",
+										"type": "String",
+										"value": "#",
+										"schema": {
+											"type": "string"
+										}
+									}
+								],
+								"inputTree": null
+							}
+						}
+					},
+					{
+						"__typename": "LogicNode",
+						"__isNode": "LogicNode",
+						"id": "695eb040cea6cc8b612ce75d",
+						"type": "Logic",
+						"displayName": null,
+						"layer": [
+							"__BASE_LAYER__"
+						],
+						"manuallyPositioned": true,
+						"model": null,
+						"stopIfNoConditionMatches": true,
+						"nodeId": "TG9naWNOb2RlOjY5NWViMDQwMGQ3NDRjNzhhMDI1OWUwNzo2OTVlYjA0MGNlYTZjYzhiNjEyY2U3NWQ=",
+						"position": {
+							"x": -328,
+							"y": 872
+						}
+					}
+				]
+			},
+			"isUsableByUsers": false,
+			"hasPremiumActions": true,
+			"workspace": {
+				"name": "Michael Feiertag's Workspace",
+				"id": "693b2e83e6a088955f32f830",
+				"url": "michael-feiertags-workspace-2",
+				"logo": null,
+				"nodeId": "V29ya3NwYWNlOjY5M2IyZTgzZTZhMDg4OTU1ZjMyZjgzMA==",
+				"groups": [
+
+				],
+				"pendingInvitations": {
+					"pageInfo": {
+						"endCursor": "eyJjcmVhdGVkQXQiOjE3NjU1NjkxNDQ1NzgsIl9pZCI6IjY5M2M3Mjc4MWIwOTkzNmE0ZDhkMzk4MCJ9",
+						"hasNextPage": false
+					},
+					"edges": [
+						{
+							"cursor": "eyJjcmVhdGVkQXQiOjE3NjU1NjkxNDQ1NzgsIl9pZCI6IjY5M2M3Mjc4MWIwOTkzNmE0ZDhkMzk4MCJ9",
+							"node": {
+								"__typename": "WorkspaceInvitation",
+								"id": "693c72781b09936a4d8d3980",
+								"email": "aperiyannan@gmail.com",
+								"role": "admin",
+								"nodeId": "V29ya3NwYWNlSW52aXRhdGlvbjo2OTNjNzI3ODFiMDk5MzZhNGQ4ZDM5ODA="
+							}
+						}
+					]
+				},
+				"billingInfo": {
+					"__typename": "SubscriptionInfo",
+					"__isNode": "SubscriptionInfo",
+					"id": "keUdgnG7F2Tz7h8R",
+					"nodeId": "U3Vic2NyaXB0aW9uSW5mbzo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmtlVWRnbkc3RjJUejdoOFI6d29ya3NwYWNlOjo=",
+					"subscriptionPlan": {
+						"planType": "ProMonthly",
+						"name": "Lindy Pro Monthly",
+						"nodeId": "U3Vic2NyaXB0aW9uUGxhbjo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmJmVGE1RlIzYXJxTXMzNUY6d29ya3NwYWNlOnByby1tb250aGx5OjUwMDA="
+					}
+				}
+			},
+			"conversationStarters": [
+
+			],
+			"hasPremiumTriggers": true,
+			"tasks": {
+				"totalCount": 24,
+				"pageInfo": {
+					"endCursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc3NTM2NDI0MzEsIl9pZCI6IjY5NWRjNzllZWQyOWY1NWU3ODYyNGU1ZSJ9",
+					"hasNextPage": false
+				},
+				"edges": [
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MTc5NjU2MTksIl9pZCI6IjY5NWVjMmUyYzVlNTA0MGE1NTM3NzI2YiJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695ec2e2c5e5040a5537726b",
+							"nodeId": "VGFzazo2OTVlYzJlMmM1ZTUwNDBhNTUzNzcyNmI=",
+							"rootSubTask": {
+								"id": "695ec2e2c5e5040a5537726d",
+								"title": "Opal Webcams Brand Monitoring",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T20:32:45.619Z",
+								"nodeId": "U3ViVGFzazo2OTVlYzJlMmM1ZTUwNDBhNTUzNzcyNmQ=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695ec2e2c5e5040a5537726b",
+									"nodeId": "VGFzazo2OTVlYzJlMmM1ZTUwNDBhNTUzNzcyNmI="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MTc5MjczMzAsIl9pZCI6IjY5NWVjMmJkYzM4NjA5MzI4ZjcwMTI0NyJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695ec2bdc38609328f701247",
+							"nodeId": "VGFzazo2OTVlYzJiZGMzODYwOTMyOGY3MDEyNDc=",
+							"rootSubTask": {
+								"id": "695ec2bdc38609328f701249",
+								"title": "NVIDIA Brand Monitoring Inquiry",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T20:32:07.330Z",
+								"nodeId": "U3ViVGFzazo2OTVlYzJiZGMzODYwOTMyOGY3MDEyNDk=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695ec2bdc38609328f701247",
+									"nodeId": "VGFzazo2OTVlYzJiZGMzODYwOTMyOGY3MDEyNDc="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MTYwODI1MzUsIl9pZCI6IjY5NWViYjg2ZDRlYWNmMTAxN2NkY2QwMyJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695ebb86d4eacf1017cdcd03",
+							"nodeId": "VGFzazo2OTVlYmI4NmQ0ZWFjZjEwMTdjZGNkMDM=",
+							"rootSubTask": {
+								"id": "695ebb86d4eacf1017cdcd05",
+								"title": "O'Reilly Publishing Brand Monitoring",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T20:01:22.535Z",
+								"nodeId": "U3ViVGFzazo2OTVlYmI4NmQ0ZWFjZjEwMTdjZGNkMDU=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695ebb86d4eacf1017cdcd03",
+									"nodeId": "VGFzazo2OTVlYmI4NmQ0ZWFjZjEwMTdjZGNkMDM="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MTUzMjExMDgsIl9pZCI6IjY5NWViODg5NzUyZGY0M2JjYTA3ZWQxZCJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695eb889752df43bca07ed1d",
+							"nodeId": "VGFzazo2OTVlYjg4OTc1MmRmNDNiY2EwN2VkMWQ=",
+							"rootSubTask": {
+								"id": "695eb889752df43bca07ed1f",
+								"title": "CalDigit Brand Monitoring Inquiry",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T19:48:41.108Z",
+								"nodeId": "U3ViVGFzazo2OTVlYjg4OTc1MmRmNDNiY2EwN2VkMWY=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695eb889752df43bca07ed1d",
+									"nodeId": "VGFzazo2OTVlYjg4OTc1MmRmNDNiY2EwN2VkMWQ="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MTQ2NzU3OTksIl9pZCI6IjY5NWViNjBhNjMwMTRkZDM1MzNmMTBiNiJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695eb60a63014dd3533f10b6",
+							"nodeId": "VGFzazo2OTVlYjYwYTYzMDE0ZGQzNTMzZjEwYjY=",
+							"rootSubTask": {
+								"id": "695eb60a63014dd3533f10b8",
+								"title": "Samsung Brand Monitoring Inquiry",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T19:37:55.799Z",
+								"nodeId": "U3ViVGFzazo2OTVlYjYwYTYzMDE0ZGQzNTMzZjEwYjg=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695eb60a63014dd3533f10b6",
+									"nodeId": "VGFzazo2OTVlYjYwYTYzMDE0ZGQzNTMzZjEwYjY="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MTMzNzkwODgsIl9pZCI6IjY5NWViMGY1NWFlNWY1ZTE2MDI4Y2ZiZiJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695eb0f55ae5f5e16028cfbf",
+							"nodeId": "VGFzazo2OTVlYjBmNTVhZTVmNWUxNjAyOGNmYmY=",
+							"rootSubTask": {
+								"id": "695eb0f55ae5f5e16028cfc1",
+								"title": "Dockers Pants Brand Monitoring",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T19:16:19.088Z",
+								"nodeId": "U3ViVGFzazo2OTVlYjBmNTVhZTVmNWUxNjAyOGNmYzE=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695eb0f55ae5f5e16028cfbf",
+									"nodeId": "VGFzazo2OTVlYjBmNTVhZTVmNWUxNjAyOGNmYmY="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MTI4MjIzNTgsIl9pZCI6IjY5NWVhZWM5YmFiZGZiOTAzYWM0OGE3YSJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695eaec9babdfb903ac48a7a",
+							"nodeId": "VGFzazo2OTVlYWVjOWJhYmRmYjkwM2FjNDhhN2E=",
+							"rootSubTask": {
+								"id": "695eaec9babdfb903ac48a7c",
+								"title": "Creative Labs Brand Monitoring",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T19:07:02.358Z",
+								"nodeId": "U3ViVGFzazo2OTVlYWVjOWJhYmRmYjkwM2FjNDhhN2M=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695eaec9babdfb903ac48a7a",
+									"nodeId": "VGFzazo2OTVlYWVjOWJhYmRmYjkwM2FjNDhhN2E="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MTI3ODU1MDYsIl9pZCI6IjY5NWVhZTljMGFlMjFjMDllYTFhYzZlZCJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695eae9c0ae21c09ea1ac6ed",
+							"nodeId": "VGFzazo2OTVlYWU5YzBhZTIxYzA5ZWExYWM2ZWQ=",
+							"rootSubTask": {
+								"id": "695eae9c0ae21c09ea1ac6ef",
+								"title": "Creative Labs Brand Monitoring",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T19:06:25.506Z",
+								"nodeId": "U3ViVGFzazo2OTVlYWU5YzBhZTIxYzA5ZWExYWM2ZWY=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695eae9c0ae21c09ea1ac6ed",
+									"nodeId": "VGFzazo2OTVlYWU5YzBhZTIxYzA5ZWExYWM2ZWQ="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MTI2ODk0NTAsIl9pZCI6IjY5NWVhZTQ0MTY0ZDU4NWNhYTdjODY4NyJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695eae44164d585caa7c8687",
+							"nodeId": "VGFzazo2OTVlYWU0NDE2NGQ1ODVjYWE3Yzg2ODc=",
+							"rootSubTask": {
+								"id": "695eae44164d585caa7c8689",
+								"title": "Monitoring Puffs Ultra Soft Brand",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T19:04:49.450Z",
+								"nodeId": "U3ViVGFzazo2OTVlYWU0NDE2NGQ1ODVjYWE3Yzg2ODk=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695eae44164d585caa7c8687",
+									"nodeId": "VGFzazo2OTVlYWU0NDE2NGQ1ODVjYWE3Yzg2ODc="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MTI1Nzc4NzEsIl9pZCI6IjY5NWVhZGNmZjc1MzFiNGQ0MGY2MDM1MiJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695eadcff7531b4d40f60352",
+							"nodeId": "VGFzazo2OTVlYWRjZmY3NTMxYjRkNDBmNjAzNTI=",
+							"rootSubTask": {
+								"id": "695eadcff7531b4d40f60354",
+								"title": "Monitoring Puffs Ultra Soft",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T19:02:57.871Z",
+								"nodeId": "U3ViVGFzazo2OTVlYWRjZmY3NTMxYjRkNDBmNjAzNTQ=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695eadcff7531b4d40f60352",
+									"nodeId": "VGFzazo2OTVlYWRjZmY3NTMxYjRkNDBmNjAzNTI="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MTE2NTU3MTYsIl9pZCI6IjY5NWVhYTMzYjA1Y2JkYWE4MzRmMzJmYiJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695eaa33b05cbdaa834f32fb",
+							"nodeId": "VGFzazo2OTVlYWEzM2IwNWNiZGFhODM0ZjMyZmI=",
+							"rootSubTask": {
+								"id": "695eaa33b05cbdaa834f32fd",
+								"title": "Puffs Tissue Paper Insights",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T18:47:35.716Z",
+								"nodeId": "U3ViVGFzazo2OTVlYWEzM2IwNWNiZGFhODM0ZjMyZmQ=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695eaa33b05cbdaa834f32fb",
+									"nodeId": "VGFzazo2OTVlYWEzM2IwNWNiZGFhODM0ZjMyZmI="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MTE0NjY1ODcsIl9pZCI6IjY5NWVhOTdhNmU2NzM5MDk0M2U0MzBkYiJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695ea97a6e67390943e430db",
+							"nodeId": "VGFzazo2OTVlYTk3YTZlNjczOTA5NDNlNDMwZGI=",
+							"rootSubTask": {
+								"id": "695ea97a6e67390943e430de",
+								"title": "Apple Business Insights 2026",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T18:44:26.587Z",
+								"nodeId": "U3ViVGFzazo2OTVlYTk3YTZlNjczOTA5NDNlNDMwZGU=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695ea97a6e67390943e430db",
+									"nodeId": "VGFzazo2OTVlYTk3YTZlNjczOTA5NDNlNDMwZGI="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MTEyNjIxNTcsIl9pZCI6IjY5NWVhOGFkNmU2NzM5MDk0M2U0MTc2ZiJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695ea8ad6e67390943e4176f",
+							"nodeId": "VGFzazo2OTVlYThhZDZlNjczOTA5NDNlNDE3NmY=",
+							"rootSubTask": {
+								"id": "695ea8ad6e67390943e41771",
+								"title": "Tide Brand Monitoring Report",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T18:41:02.157Z",
+								"nodeId": "U3ViVGFzazo2OTVlYThhZDZlNjczOTA5NDNlNDE3NzE=",
+								"hasNotification": true,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695ea8ad6e67390943e4176f",
+									"nodeId": "VGFzazo2OTVlYThhZDZlNjczOTA5NDNlNDE3NmY="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MDg4MjUxMjgsIl9pZCI6IjY5NWU5ZjIwYzE2YTYzMTQ1MmUzMDI1OSJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695e9f20c16a631452e30259",
+							"nodeId": "VGFzazo2OTVlOWYyMGMxNmE2MzE0NTJlMzAyNTk=",
+							"rootSubTask": {
+								"id": "695e9f20c16a631452e3025b",
+								"title": "Testing Brand Monitor Functionality",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T18:00:25.128Z",
+								"nodeId": "U3ViVGFzazo2OTVlOWYyMGMxNmE2MzE0NTJlMzAyNWI=",
+								"hasNotification": true,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695e9f20c16a631452e30259",
+									"nodeId": "VGFzazo2OTVlOWYyMGMxNmE2MzE0NTJlMzAyNTk="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MDg2NTQ0ODksIl9pZCI6IjY5NWU5ZTgzNWM4NzM0Y2FlMmQ0NjgyNiJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695e9e835c8734cae2d46826",
+							"nodeId": "VGFzazo2OTVlOWU4MzVjODczNGNhZTJkNDY4MjY=",
+							"rootSubTask": {
+								"id": "695e9e835c8734cae2d46828",
+								"title": "Testing Message Functionality",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T17:57:34.489Z",
+								"nodeId": "U3ViVGFzazo2OTVlOWU4MzVjODczNGNhZTJkNDY4Mjg=",
+								"hasNotification": true,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695e9e835c8734cae2d46826",
+									"nodeId": "VGFzazo2OTVlOWU4MzVjODczNGNhZTJkNDY4MjY="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MDg1NjM3OTcsIl9pZCI6IjY5NWU5ZTIxMTI0NTQ2ZDRkOThmMGRiOCJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695e9e21124546d4d98f0db8",
+							"nodeId": "VGFzazo2OTVlOWUyMTEyNDU0NmQ0ZDk4ZjBkYjg=",
+							"rootSubTask": {
+								"id": "695e9e21124546d4d98f0dba",
+								"title": "Tide Brand Monitoring Update",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T17:56:03.797Z",
+								"nodeId": "U3ViVGFzazo2OTVlOWUyMTEyNDU0NmQ0ZDk4ZjBkYmE=",
+								"hasNotification": true,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695e9e21124546d4d98f0db8",
+									"nodeId": "VGFzazo2OTVlOWUyMTEyNDU0NmQ0ZDk4ZjBkYjg="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MDc5OTc3NjAsIl9pZCI6IjY5NWU5YmYyZWRhMTIxNjBmNGNiMDcwOCJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695e9bf2eda12160f4cb0708",
+							"nodeId": "VGFzazo2OTVlOWJmMmVkYTEyMTYwZjRjYjA3MDg=",
+							"rootSubTask": {
+								"id": "695e9bf2eda12160f4cb070a",
+								"title": "Testing Meeting Functionality",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T17:46:37.760Z",
+								"nodeId": "U3ViVGFzazo2OTVlOWJmMmVkYTEyMTYwZjRjYjA3MGE=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695e9bf2eda12160f4cb0708",
+									"nodeId": "VGFzazo2OTVlOWJmMmVkYTEyMTYwZjRjYjA3MDg="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MDc1MDAzMjcsIl9pZCI6IjY5NWU5OWZkMTI0NTQ2ZDRkOThlNmIzNCJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695e99fd124546d4d98e6b34",
+							"nodeId": "VGFzazo2OTVlOTlmZDEyNDU0NmQ0ZDk4ZTZiMzQ=",
+							"rootSubTask": {
+								"id": "695e99fd124546d4d98e6b36",
+								"title": "Initiating Action",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T17:38:20.327Z",
+								"nodeId": "U3ViVGFzazo2OTVlOTlmZDEyNDU0NmQ0ZDk4ZTZiMzY=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695e99fd124546d4d98e6b34",
+									"nodeId": "VGFzazo2OTVlOTlmZDEyNDU0NmQ0ZDk4ZTZiMzQ="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MDcwNjIwNzAsIl9pZCI6IjY5NWU5ODQ5NjZmYWRlZDBhMWZhMzVhZiJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695e984966faded0a1fa35af",
+							"nodeId": "VGFzazo2OTVlOTg0OTY2ZmFkZWQwYTFmYTM1YWY=",
+							"rootSubTask": {
+								"id": "695e984966faded0a1fa35b1",
+								"title": "Initiating Task Instructions",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T17:31:02.070Z",
+								"nodeId": "U3ViVGFzazo2OTVlOTg0OTY2ZmFkZWQwYTFmYTM1YjE=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695e984966faded0a1fa35af",
+									"nodeId": "VGFzazo2OTVlOTg0OTY2ZmFkZWQwYTFmYTM1YWY="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc4MDY4MTI2NTMsIl9pZCI6IjY5NWU5NzRjMmZhZTc1MmNhY2YxZTQ3ZCJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695e974c2fae752cacf1e47d",
+							"nodeId": "VGFzazo2OTVlOTc0YzJmYWU3NTJjYWNmMWU0N2Q=",
+							"rootSubTask": {
+								"id": "695e974c2fae752cacf1e47f",
+								"title": "Recurring Schedule Notification",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T17:26:52.653Z",
+								"nodeId": "U3ViVGFzazo2OTVlOTc0YzJmYWU3NTJjYWNmMWU0N2Y=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695e974c2fae752cacf1e47d",
+									"nodeId": "VGFzazo2OTVlOTc0YzJmYWU3NTJjYWNmMWU0N2Q="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc3NTcwNDI1NjgsIl9pZCI6IjY5NWRkNGU4ODk1YThlNDA3OGYwYmVkOCJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695dd4e8895a8e4078f0bed8",
+							"nodeId": "VGFzazo2OTVkZDRlODg5NWE4ZTQwNzhmMGJlZDg=",
+							"rootSubTask": {
+								"id": "695dd4e8895a8e4078f0beda",
+								"title": "Recurring Schedule Trigger Notification",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T03:37:22.568Z",
+								"nodeId": "U3ViVGFzazo2OTVkZDRlODg5NWE4ZTQwNzhmMGJlZGE=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695dd4e8895a8e4078f0bed8",
+									"nodeId": "VGFzazo2OTVkZDRlODg5NWE4ZTQwNzhmMGJlZDg="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc3NTY5NzIzMjMsIl9pZCI6IjY5NWRkNDI0OWQ2MmZhOTNkNjc3NjE5NyJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695dd4249d62fa93d6776197",
+							"nodeId": "VGFzazo2OTVkZDQyNDlkNjJmYTkzZDY3NzYxOTc=",
+							"rootSubTask": {
+								"id": "695dd4249d62fa93d6776199",
+								"title": "Recurring Schedule Notification",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T03:36:12.323Z",
+								"nodeId": "U3ViVGFzazo2OTVkZDQyNDlkNjJmYTkzZDY3NzYxOTk=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695dd4249d62fa93d6776197",
+									"nodeId": "VGFzazo2OTVkZDQyNDlkNjJmYTkzZDY3NzYxOTc="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc3NTM4Mjc3MzEsIl9pZCI6IjY5NWRjODU4OTIwNzRiM2Y1YTAzOWUwZSJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695dc85892074b3f5a039e0e",
+							"nodeId": "VGFzazo2OTVkYzg1ODkyMDc0YjNmNWEwMzllMGU=",
+							"rootSubTask": {
+								"id": "695dc85892074b3f5a039e10",
+								"title": "Recurring Schedule Triggered",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T02:43:47.731Z",
+								"nodeId": "U3ViVGFzazo2OTVkYzg1ODkyMDc0YjNmNWEwMzllMTA=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695dc85892074b3f5a039e0e",
+									"nodeId": "VGFzazo2OTVkYzg1ODkyMDc0YjNmNWEwMzllMGU="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					},
+					{
+						"cursor": "eyJzdGF0dXNVcGRhdGVkQXQiOjE3Njc3NTM2NDI0MzEsIl9pZCI6IjY5NWRjNzllZWQyOWY1NWU3ODYyNGU1ZSJ9",
+						"node": {
+							"__typename": "Task",
+							"id": "695dc79eed29f55e78624e5e",
+							"nodeId": "VGFzazo2OTVkYzc5ZWVkMjlmNTVlNzg2MjRlNWU=",
+							"rootSubTask": {
+								"id": "695dc79eed29f55e78624e60",
+								"title": "Recurring Schedule Triggered",
+								"sharing": null,
+								"status": "Completed",
+								"statusUpdatedAt": "2026-01-07T02:40:42.431Z",
+								"nodeId": "U3ViVGFzazo2OTVkYzc5ZWVkMjlmNTVlNzg2MjRlNjA=",
+								"hasNotification": false,
+								"ownerInfo": {
+									"__typename": "Identity",
+									"__isNode": "Identity",
+									"id": "693b2e83e6a088955f32f826",
+									"name": "Michael Feiertag",
+									"email": "m@mftestco.com",
+									"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+									"avatar": {
+										"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg",
+										"heightPx": null,
+										"widthPx": null
+									}
+								},
+								"hasActiveChild": false,
+								"task": {
+									"id": "695dc79eed29f55e78624e5e",
+									"nodeId": "VGFzazo2OTVkYzc5ZWVkMjlmNTVlNzg2MjRlNWU="
+								},
+								"hasOwnSubTasks": false
+							}
+						}
+					}
+				]
+			}
+		},
+		"me": {
+			"__typename": "Identity",
+			"id": "693b2e83e6a088955f32f826",
+			"name": "Michael Feiertag",
+			"email": "m@mftestco.com",
+			"isEmailQualified": true,
+			"shouldShowQualifiedSignupCta": true,
+			"referralCode": "6ISxebor5t",
+			"isAdmin": false,
+			"wizardAgentDefinitionId": "68421cb7c22d7402e81f5fc9",
+			"isLoggedInAsUser": false,
+			"createdAt": "2025-12-11",
+			"timeZone": "America/Los_Angeles",
+			"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2",
+			"avatar": {
+				"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg"
+			},
+			"flags": {
+				"shouldNotPrefetchAgentSidebarItems": false,
+				"isLindyAssistant": false,
+				"billingVersion": "v4",
+				"signedUpFromLindyBuild": false,
+				"hasSeenBuildMode": false,
+				"isMarkedSensitive": false,
+				"dismissedReferralCta": false,
+				"dismissedQualifiedSignupUpsell": false,
+				"activatedAt": "2025-12-11T22:06:36.560Z",
+				"respondedToNpsSurveyAt": null,
+				"isInAppTaskFinishedNotificationEnabled": true
+			},
+			"shouldShowReferralCta": true,
+			"chiefOfStaffAgent": null,
+			"meetingsAgent": null,
+			"inAppPromoCards": [
+
+			],
+			"lastVisitedWorkspace": {
+				"id": "693b2e83e6a088955f32f830",
+				"nodeId": "V29ya3NwYWNlOjY5M2IyZTgzZTZhMDg4OTU1ZjMyZjgzMA=="
+			},
+			"enabledFeatureFlags": [
+				"karthik-configure-upgrade-credits-slider-values",
+				"elevenlabs-tts-model",
+				"phone-calls-generation-request-hedging-config",
+				"auto-pause-computer-use-sandboxes",
+				"totp-and-email-2fa",
+				"save-changes-on-leaving-modal",
+				"deemphasize-price",
+				"default-annual",
+				"enable-all-tasks-retry",
+				"signup-behavior-variant",
+				"gmail-sync-multi-workspace-auth",
+				"llm-input-items-cold-storage",
+				"jonathan-knowledge-base-gdrive",
+				"user-source-options",
+				"app-builder-examples",
+				"create-agent-modal-template-ids",
+				"jonathan-knowledge-base-freshdesk",
+				"robby-custom-lindy-names",
+				"agent-builder-agent-variant",
+				"jonathan-knowledge-base-dropbox",
+				"hide-sidebar-credits-gauge",
+				"app-builder-integrations",
+				"use-google-genai-client",
+				"jonathan-knowledge-base",
+				"jonathan-google-sign-on",
+				"enable-groq-models",
+				"trial-phone-call-max-spend",
+				"workspace-groups",
+				"image-gen",
+				"rename-version",
+				"jonathan-knowledge-base-onedrive",
+				"node-paste-at-cursor",
+				"anthropic-prompt-caching",
+				"sorting-hat-experiment-variant",
+				"scrape-creators",
+				"ryan-workspaces-charge-membership-addon",
+				"jonathan-knowledge-base-notion",
+				"ian-knowledge-base-website",
+				"sales-assist-owner-options",
+				"customer-success-manager-options",
+				"ian-knowledge-base-text",
+				"ian-knowledge-base-files",
+				"enable-ai-fill-additional-list-inputs-option",
+				"auto-inject-agent-state-stateful-tool-actions",
+				"baseten-kimi-k2-thinking",
+				"error-handling-edges",
+				"sidebar-promo-cards",
+				"action-config-in-agent-step"
+			],
+			"sharedAgentFolders": [
+
+			],
+			"agentBuilderAgentDefinition": {
+				"id": "68421cb7c22d7402e81f5fc9",
+				"name": "Chat",
+				"nodeId": "QWdlbnREZWZpbml0aW9uOjY4NDIxY2I3YzIyZDc0MDJlODFmNWZjOQ==",
+				"flags": {
+					"defaultSpeechToTextModel": "SingleLanguage",
+					"isSpeechToTextModalMode": false
+				},
+				"url": "https://chat.lindy.ai/680bbb5fc3118a0a4217efd6/lindy/chat-68421cb7c22d7402e81f5fc9/tasks"
+			},
+			"auth": [
+				{
+					"fields": null,
+					"id": "693b2e84e6a088955f32f886",
+					"label": "m@mftestco.com",
+					"method": "OAuth",
+					"provider": "googleAuth",
+					"scopes": [
+						"https://www.googleapis.com/auth/calendar.events.readonly",
+						"https://www.googleapis.com/auth/calendar.readonly",
+						"https://www.googleapis.com/auth/drive.readonly",
+						"https://www.googleapis.com/auth/gmail.compose",
+						"https://www.googleapis.com/auth/gmail.readonly",
+						"https://www.googleapis.com/auth/gmail.send",
+						"https://www.googleapis.com/auth/spreadsheets",
+						"https://www.googleapis.com/auth/userinfo.email",
+						"https://www.googleapis.com/auth/userinfo.profile",
+						"openid"
+					],
+					"hasAllScopes": true,
+					"isConnected": true,
+					"nodeId": "QXV0aDo2OTNiMmU4NGU2YTA4ODk1NWYzMmY4ODY=",
+					"ownerInfo": {
+						"id": "693b2e83e6a088955f32f826",
+						"nodeId": "V29ya3NwYWNlTWVtYmVyc2hpcElkZW50aXR5SW5mbzo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY="
+					}
+				},
+				{
+					"fields": {
+						"accountSID": {
+							"type": "text",
+							"label": "Account SID",
+							"required": true
+						},
+						"apiKey": {
+							"type": "password",
+							"label": "Auth Token",
+							"required": true
+						}
+					},
+					"id": "693b3490cceee37044f28e8b",
+					"label": "Twilio",
+					"method": "Custom",
+					"provider": "twilioAuth",
+					"scopes": [
+
+					],
+					"hasAllScopes": true,
+					"isConnected": true,
+					"nodeId": "QXV0aDo2OTNiMzQ5MGNjZWVlMzcwNDRmMjhlOGI=",
+					"ownerInfo": {
+						"id": "693b2e83e6a088955f32f826",
+						"nodeId": "V29ya3NwYWNlTWVtYmVyc2hpcElkZW50aXR5SW5mbzo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY="
+					}
+				}
+			],
+			"favorites": [
+
+			],
+			"hasAgents": [
+				{
+					"__typename": "AgentDefinition",
+					"nodeId": "QWdlbnREZWZpbml0aW9uOjY5NWVjN2Y1YmVmMDg5M2Y5MmY4ZGVlNg=="
+				}
+			],
+			"agentFolders": {
+				"folders": [
+
+				],
+				"root": {
+					"agentDefinitions": [
+						{
+							"id": "693b3789c8b9204305fd5087",
+							"name": "Board meeting monitor",
+							"createdAt": "2025-12-11T21:28:41.512Z",
+							"updatedAt": "2026-01-07T17:39:23.888Z",
+							"nodeId": "QWdlbnREZWZpbml0aW9uOjY5M2IzNzg5YzhiOTIwNDMwNWZkNTA4Nw==",
+							"icon": {
+								"name": "MeetingSchedulerIcon",
+								"color": "Green"
+							}
+						},
+						{
+							"id": "693b3fc7e12822592e50aff0",
+							"name": "Agent Monitor",
+							"createdAt": "2025-12-11T22:03:51.430Z",
+							"updatedAt": "2026-01-07T20:32:46.527Z",
+							"nodeId": "QWdlbnREZWZpbml0aW9uOjY5M2IzZmM3ZTEyODIyNTkyZTUwYWZmMA==",
+							"icon": {
+								"name": "OpenNoteBookPadIcon",
+								"color": "Yellow"
+							}
+						},
+						{
+							"id": "693c78bb39099082df392692",
+							"name": "Lindy Agent Lister",
+							"createdAt": "2025-12-12T20:19:07.736Z",
+							"updatedAt": "2026-01-07T21:01:43.384Z",
+							"nodeId": "QWdlbnREZWZpbml0aW9uOjY5M2M3OGJiMzkwOTkwODJkZjM5MjY5Mg==",
+							"icon": {
+								"name": "BirthdayCakeIcon",
+								"color": "Brown"
+							}
+						},
+						{
+							"id": "695d7c0b17d213e56045761c",
+							"name": "Brand Monitor",
+							"createdAt": "2026-01-06T21:18:03.521Z",
+							"updatedAt": "2026-01-07T20:32:35.257Z",
+							"nodeId": "QWdlbnREZWZpbml0aW9uOjY5NWQ3YzBiMTdkMjEzZTU2MDQ1NzYxYw==",
+							"icon": {
+								"name": "SunLightModeDayIcon",
+								"color": "Pink"
+							}
+						},
+						{
+							"id": "695ec680d26c8fbdc87df6bd",
+							"name": "Agent Configuration Scraper",
+							"createdAt": "2026-01-07T20:48:00.314Z",
+							"updatedAt": "2026-01-07T21:23:28.078Z",
+							"nodeId": "QWdlbnREZWZpbml0aW9uOjY5NWVjNjgwZDI2YzhmYmRjODdkZjZiZA==",
+							"icon": {
+								"name": "PinLocationMapIcon",
+								"color": "Pink"
+							}
+						},
+						{
+							"id": "695ec7f5bef0893f92f8dee6",
+							"name": "Agent Configuration Exporter",
+							"createdAt": "2026-01-07T20:54:13.899Z",
+							"updatedAt": "2026-01-07T21:05:01.772Z",
+							"nodeId": "QWdlbnREZWZpbml0aW9uOjY5NWVjN2Y1YmVmMDg5M2Y5MmY4ZGVlNg==",
+							"icon": {
+								"name": "PrinterPrintIcon",
+								"color": "Green"
+							}
+						}
+					]
+				}
+			},
+			"workspaceMemberships": [
+				{
+					"role": "owner",
+					"nodeId": "V29ya3NwYWNlTWVtYmVyc2hpcDo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMw",
+					"workspace": {
+						"id": "693b2e83e6a088955f32f830",
+						"name": "Michael Feiertag's Workspace",
+						"url": "michael-feiertags-workspace-2",
+						"logo": null,
+						"nodeId": "V29ya3NwYWNlOjY5M2IyZTgzZTZhMDg4OTU1ZjMyZjgzMA==",
+						"memberships": {
+							"totalCount": 1
+						},
+						"membershipsPaginated": {
+							"edges": [
+								{
+									"node": {
+										"role": "owner",
+										"nodeId": "V29ya3NwYWNlTWVtYmVyc2hpcDo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMw",
+										"membershipIdentityInfo": {
+											"id": "693b2e83e6a088955f32f826",
+											"name": "Michael Feiertag",
+											"nodeId": "V29ya3NwYWNlTWVtYmVyc2hpcElkZW50aXR5SW5mbzo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY=",
+											"avatar": {
+												"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg"
+											}
+										}
+									}
+								}
+							]
+						},
+						"myAgentDefinitions": {
+							"totalCount": 6
+						}
+					}
+				}
+			],
+			"customizations": {
+				"homePageCustomizations": {
+					"chatPromptStarters": null,
+					"appBuilderPromptStarters": null
+				}
+			},
+			"billingInfoForWorkspace": {
+				"__typename": "SubscriptionInfo",
+				"__isNode": "SubscriptionInfo",
+				"id": "keUdgnG7F2Tz7h8R",
+				"creditsResetDate": "2026-01-18T08:00:00.000Z",
+				"trialInfo": null,
+				"overagesEnabled": false,
+				"lastPaymentFailure": null,
+				"nodeId": "U3Vic2NyaXB0aW9uSW5mbzo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmtlVWRnbkc3RjJUejdoOFI6dXNlcjo6",
+				"creditsInfo": {
+					"percentConsumed": 30.551695250000005,
+					"creditAllocation": 5000,
+					"creditBalance": 3473,
+					"nodeId": "Q3JlZGl0c0luZm86NjkzYjJlODNlNmEwODg5NTVmMzJmODI2OjY5M2IyZTgzZTZhMDg4OTU1ZjMyZjgzMDo6dXNlcjo6NTAwMA=="
+				},
+				"subscriptionPlan": {
+					"planType": "ProMonthly",
+					"nodeId": "U3Vic2NyaXB0aW9uUGxhbjo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmJmVGE1RlIzYXJxTXMzNUY6dXNlcjpwcm8tbW9udGhseTo1MDAw"
+				},
+				"features": {
+					"arePremiumFeaturesEnabled": true,
+					"nodeId": "U3Vic2NyaXB0aW9uRmVhdHVyZXM6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2OjY5M2IyZTgzZTZhMDg4OTU1ZjMyZjgzMDo6dXNlcjo6"
+				}
+			},
+			"billingInfo": {
+				"id": "keUdgnG7F2Tz7h8R",
+				"nodeId": "U3Vic2NyaXB0aW9uSW5mbzo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmtlVWRnbkc3RjJUejdoOFI6dXNlcjo6",
+				"features": {
+					"arePremiumFeaturesEnabled": true,
+					"hasKnowledgeBaseIncreasedLimits": true,
+					"nodeId": "U3Vic2NyaXB0aW9uRmVhdHVyZXM6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2OjY5M2IyZTgzZTZhMDg4OTU1ZjMyZjgzMDo6dXNlcjo6"
+				},
+				"subscriptionPlan": {
+					"planType": "ProMonthly",
+					"nodeId": "U3Vic2NyaXB0aW9uUGxhbjo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmJmVGE1RlIzYXJxTXMzNUY6dXNlcjpwcm8tbW9udGhseTo1MDAw"
+				}
+			},
+			"workspaceMembershipFor": {
+				"role": "owner",
+				"nodeId": "V29ya3NwYWNlTWVtYmVyc2hpcDo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMw",
+				"creditLimit": null,
+				"membershipSettings": {
+					"speechToTextModel": null,
+					"mailAddressNamespace": "m.w",
+					"webhooks": [
+
+					]
+				},
+				"workspace": {
+					"id": "693b2e83e6a088955f32f830",
+					"url": "michael-feiertags-workspace-2",
+					"name": "Michael Feiertag's Workspace",
+					"logo": null,
+					"nodeId": "V29ya3NwYWNlOjY5M2IyZTgzZTZhMDg4OTU1ZjMyZjgzMA==",
+					"groups": [
+
+					],
+					"ownerInfo": {
+						"id": "693b2e83e6a088955f32f826",
+						"nodeId": "V29ya3NwYWNlTWVtYmVyc2hpcElkZW50aXR5SW5mbzo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY="
+					},
+					"pendingInvitations": {
+						"pageInfo": {
+							"endCursor": "eyJjcmVhdGVkQXQiOjE3NjU1NjkxNDQ1NzgsIl9pZCI6IjY5M2M3Mjc4MWIwOTkzNmE0ZDhkMzk4MCJ9",
+							"hasNextPage": false
+						},
+						"edges": [
+							{
+								"cursor": "eyJjcmVhdGVkQXQiOjE3NjU1NjkxNDQ1NzgsIl9pZCI6IjY5M2M3Mjc4MWIwOTkzNmE0ZDhkMzk4MCJ9",
+								"node": {
+									"__typename": "WorkspaceInvitation",
+									"id": "693c72781b09936a4d8d3980",
+									"email": "aperiyannan@gmail.com",
+									"role": "admin",
+									"nodeId": "V29ya3NwYWNlSW52aXRhdGlvbjo2OTNjNzI3ODFiMDk5MzZhNGQ4ZDM5ODA="
+								}
+							}
+						]
+					},
+					"memberships": {
+						"edges": [
+							{
+								"node": {
+									"role": "owner",
+									"nodeId": "V29ya3NwYWNlTWVtYmVyc2hpcDo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMw",
+									"membershipIdentityInfo": {
+										"id": "693b2e83e6a088955f32f826",
+										"name": "Michael Feiertag",
+										"email": "m@mftestco.com",
+										"nodeId": "V29ya3NwYWNlTWVtYmVyc2hpcElkZW50aXR5SW5mbzo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY=",
+										"avatar": {
+											"url": "https://lindy.nyc3.cdn.digitaloceanspaces.com/user-content/prod/owners/693b2e83e6a088955f32f826/avatars/962225c5-5bab-4d26-9454-e633dcf97e00.jpg"
+										}
+									}
+								}
+							}
+						]
+					},
+					"admins": {
+						"totalCount": 1,
+						"edges": [
+							{
+								"node": {
+									"nodeId": "V29ya3NwYWNlTWVtYmVyc2hpcDo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMw",
+									"membershipIdentityInfo": {
+										"name": "Michael Feiertag",
+										"email": "m@mftestco.com",
+										"nodeId": "V29ya3NwYWNlTWVtYmVyc2hpcElkZW50aXR5SW5mbzo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY="
+									}
+								}
+							}
+						]
+					},
+					"billingInfo": {
+						"__typename": "SubscriptionInfo",
+						"__isWorkspaceBillingInfo": "SubscriptionInfo",
+						"__isNode": "SubscriptionInfo",
+						"upcomingPlan": null,
+						"id": "keUdgnG7F2Tz7h8R",
+						"appliedPromoCode": null,
+						"overagesEnabled": false,
+						"nodeId": "U3Vic2NyaXB0aW9uSW5mbzo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmtlVWRnbkc3RjJUejdoOFI6d29ya3NwYWNlOjo=",
+						"subscriptionPlan": {
+							"creditAllocation": 5000,
+							"planType": "ProMonthly",
+							"name": "Lindy Pro Monthly",
+							"price": "49.99",
+							"nodeId": "U3Vic2NyaXB0aW9uUGxhbjo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmJmVGE1RlIzYXJxTXMzNUY6d29ya3NwYWNlOnByby1tb250aGx5OjUwMDA="
+						},
+						"creditsInfo": {
+							"percentConsumed": 30.551695250000005,
+							"creditBalance": 3473,
+							"nodeId": "Q3JlZGl0c0luZm86NjkzYjJlODNlNmEwODg5NTVmMzJmODI2OjY5M2IyZTgzZTZhMDg4OTU1ZjMyZjgzMDo6d29ya3NwYWNlOjo1MDAw"
+						}
+					}
+				},
+				"totalCreditUsage": 1544.7597625000003
+			},
+			"recentLindies": [
+				{
+					"id": "695ec680d26c8fbdc87df6bd",
+					"name": "Agent Configuration Scraper",
+					"createdAt": "2026-01-07T20:48:00.314Z",
+					"isMuted": false,
+					"lastRunAt": "2026-01-07T21:23:28.078Z",
+					"nodeId": "QWdlbnREZWZpbml0aW9uOjY5NWVjNjgwZDI2YzhmYmRjODdkZjZiZA==",
+					"icon": {
+						"name": "PinLocationMapIcon",
+						"color": "Pink"
+					},
+					"sharing": {
+						"visibility": "private"
+					},
+					"permission": "owner",
+					"groupPermissions": [
+
+					],
+					"effectiveUserPermissions": [
+
+					],
+					"isFavorite": false,
+					"effectiveWorkspacePermission": {
+						"access": null,
+						"sources": [
+
+						],
+						"folderAccess": null
+					},
+					"ownerInfo": {
+						"__typename": "Identity",
+						"__isNode": "Identity",
+						"id": "693b2e83e6a088955f32f826",
+						"name": "Michael Feiertag",
+						"email": "m@mftestco.com",
+						"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2"
+					},
+					"isCustomizable": false,
+					"notificationsCount": 0,
+					"parentFolder": null,
+					"hasUsers": false,
+					"hasEditors": false,
+					"stateGraph": {
+						"nodeId": "U3RhdGVHcmFwaDo2OTVlY2IyNTlhMmI3MmNhYTYyZjdiNGM=",
+						"nodes": [
+							{
+								"__typename": "EntryPointConversationNode",
+								"__isNode": "EntryPointConversationNode",
+								"nodeId": "RW50cnlQb2ludENvbnZlcnNhdGlvbk5vZGU6Njk1ZWNiMjU5YTJiNzJjYWE2MmY3YjRjOjY5NWVjNjgwZDI2YzhmYmRjODdkZjZiYg=="
+							},
+							{
+								"__typename": "AgentStateNode",
+								"__isNode": "AgentStateNode",
+								"nodeId": "QWdlbnRTdGF0ZU5vZGU6Njk1ZWNiMjU5YTJiNzJjYWE2MmY3YjRjOjY5NWVjNjgwZDI2YzhmYmRjODdkZjcwNw=="
+							}
+						]
+					},
+					"workspace": {
+						"name": "Michael Feiertag's Workspace",
+						"id": "693b2e83e6a088955f32f830",
+						"url": "michael-feiertags-workspace-2",
+						"logo": null,
+						"nodeId": "V29ya3NwYWNlOjY5M2IyZTgzZTZhMDg4OTU1ZjMyZjgzMA==",
+						"groups": [
+
+						],
+						"pendingInvitations": {
+							"pageInfo": {
+								"endCursor": "eyJjcmVhdGVkQXQiOjE3NjU1NjkxNDQ1NzgsIl9pZCI6IjY5M2M3Mjc4MWIwOTkzNmE0ZDhkMzk4MCJ9",
+								"hasNextPage": false
+							},
+							"edges": [
+								{
+									"cursor": "eyJjcmVhdGVkQXQiOjE3NjU1NjkxNDQ1NzgsIl9pZCI6IjY5M2M3Mjc4MWIwOTkzNmE0ZDhkMzk4MCJ9",
+									"node": {
+										"__typename": "WorkspaceInvitation",
+										"id": "693c72781b09936a4d8d3980",
+										"email": "aperiyannan@gmail.com",
+										"role": "admin",
+										"nodeId": "V29ya3NwYWNlSW52aXRhdGlvbjo2OTNjNzI3ODFiMDk5MzZhNGQ4ZDM5ODA="
+									}
+								}
+							]
+						},
+						"billingInfo": {
+							"__typename": "SubscriptionInfo",
+							"__isNode": "SubscriptionInfo",
+							"id": "keUdgnG7F2Tz7h8R",
+							"nodeId": "U3Vic2NyaXB0aW9uSW5mbzo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmtlVWRnbkc3RjJUejdoOFI6d29ya3NwYWNlOjo=",
+							"subscriptionPlan": {
+								"planType": "ProMonthly",
+								"name": "Lindy Pro Monthly",
+								"nodeId": "U3Vic2NyaXB0aW9uUGxhbjo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmJmVGE1RlIzYXJxTXMzNUY6d29ya3NwYWNlOnByby1tb250aGx5OjUwMDA="
+							}
+						}
+					},
+					"isUsableByUsers": true
+				},
+				{
+					"id": "695ec7f5bef0893f92f8dee6",
+					"name": "Agent Configuration Exporter",
+					"createdAt": "2026-01-07T20:54:13.899Z",
+					"isMuted": false,
+					"lastRunAt": "2026-01-07T21:05:01.771Z",
+					"nodeId": "QWdlbnREZWZpbml0aW9uOjY5NWVjN2Y1YmVmMDg5M2Y5MmY4ZGVlNg==",
+					"icon": {
+						"name": "PrinterPrintIcon",
+						"color": "Green"
+					},
+					"sharing": {
+						"visibility": "private"
+					},
+					"permission": "owner",
+					"groupPermissions": [
+
+					],
+					"effectiveUserPermissions": [
+
+					],
+					"isFavorite": false,
+					"effectiveWorkspacePermission": {
+						"access": null,
+						"sources": [
+
+						],
+						"folderAccess": null
+					},
+					"ownerInfo": {
+						"__typename": "Identity",
+						"__isNode": "Identity",
+						"id": "693b2e83e6a088955f32f826",
+						"name": "Michael Feiertag",
+						"email": "m@mftestco.com",
+						"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2"
+					},
+					"isCustomizable": false,
+					"notificationsCount": 0,
+					"parentFolder": null,
+					"hasUsers": false,
+					"hasEditors": false,
+					"stateGraph": {
+						"nodeId": "U3RhdGVHcmFwaDo2OTVlY2ExNDYzNWY0MDFkNDhhNWMzNTA=",
+						"nodes": [
+							{
+								"__typename": "EntryPointConversationNode",
+								"__isNode": "EntryPointConversationNode",
+								"nodeId": "RW50cnlQb2ludENvbnZlcnNhdGlvbk5vZGU6Njk1ZWNhMTQ2MzVmNDAxZDQ4YTVjMzUwOjY5NWVjN2Y1YmVmMDg5M2Y5MmY4ZGVlNA=="
+							},
+							{
+								"__typename": "AgentStateNode",
+								"__isNode": "AgentStateNode",
+								"nodeId": "QWdlbnRTdGF0ZU5vZGU6Njk1ZWNhMTQ2MzVmNDAxZDQ4YTVjMzUwOjY5NWVjODlkMTc0ODY3ZTJhMmEyYzUxOA=="
+							}
+						]
+					},
+					"workspace": {
+						"name": "Michael Feiertag's Workspace",
+						"id": "693b2e83e6a088955f32f830",
+						"url": "michael-feiertags-workspace-2",
+						"logo": null,
+						"nodeId": "V29ya3NwYWNlOjY5M2IyZTgzZTZhMDg4OTU1ZjMyZjgzMA==",
+						"groups": [
+
+						],
+						"pendingInvitations": {
+							"pageInfo": {
+								"endCursor": "eyJjcmVhdGVkQXQiOjE3NjU1NjkxNDQ1NzgsIl9pZCI6IjY5M2M3Mjc4MWIwOTkzNmE0ZDhkMzk4MCJ9",
+								"hasNextPage": false
+							},
+							"edges": [
+								{
+									"cursor": "eyJjcmVhdGVkQXQiOjE3NjU1NjkxNDQ1NzgsIl9pZCI6IjY5M2M3Mjc4MWIwOTkzNmE0ZDhkMzk4MCJ9",
+									"node": {
+										"__typename": "WorkspaceInvitation",
+										"id": "693c72781b09936a4d8d3980",
+										"email": "aperiyannan@gmail.com",
+										"role": "admin",
+										"nodeId": "V29ya3NwYWNlSW52aXRhdGlvbjo2OTNjNzI3ODFiMDk5MzZhNGQ4ZDM5ODA="
+									}
+								}
+							]
+						},
+						"billingInfo": {
+							"__typename": "SubscriptionInfo",
+							"__isNode": "SubscriptionInfo",
+							"id": "keUdgnG7F2Tz7h8R",
+							"nodeId": "U3Vic2NyaXB0aW9uSW5mbzo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmtlVWRnbkc3RjJUejdoOFI6d29ya3NwYWNlOjo=",
+							"subscriptionPlan": {
+								"planType": "ProMonthly",
+								"name": "Lindy Pro Monthly",
+								"nodeId": "U3Vic2NyaXB0aW9uUGxhbjo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmJmVGE1RlIzYXJxTXMzNUY6d29ya3NwYWNlOnByby1tb250aGx5OjUwMDA="
+							}
+						}
+					},
+					"isUsableByUsers": true
+				},
+				{
+					"id": "693c78bb39099082df392692",
+					"name": "Lindy Agent Lister",
+					"createdAt": "2025-12-12T20:19:07.736Z",
+					"isMuted": false,
+					"lastRunAt": "2026-01-07T21:01:43.383Z",
+					"nodeId": "QWdlbnREZWZpbml0aW9uOjY5M2M3OGJiMzkwOTkwODJkZjM5MjY5Mg==",
+					"icon": {
+						"name": "BirthdayCakeIcon",
+						"color": "Brown"
+					},
+					"sharing": {
+						"visibility": "private"
+					},
+					"permission": "owner",
+					"groupPermissions": [
+
+					],
+					"effectiveUserPermissions": [
+
+					],
+					"isFavorite": false,
+					"effectiveWorkspacePermission": {
+						"access": null,
+						"sources": [
+
+						],
+						"folderAccess": null
+					},
+					"ownerInfo": {
+						"__typename": "Identity",
+						"__isNode": "Identity",
+						"id": "693b2e83e6a088955f32f826",
+						"name": "Michael Feiertag",
+						"email": "m@mftestco.com",
+						"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2"
+					},
+					"isCustomizable": false,
+					"notificationsCount": 22,
+					"parentFolder": null,
+					"hasUsers": false,
+					"hasEditors": false,
+					"workspace": {
+						"name": "Michael Feiertag's Workspace",
+						"id": "693b2e83e6a088955f32f830",
+						"url": "michael-feiertags-workspace-2",
+						"logo": null,
+						"nodeId": "V29ya3NwYWNlOjY5M2IyZTgzZTZhMDg4OTU1ZjMyZjgzMA==",
+						"groups": [
+
+						],
+						"pendingInvitations": {
+							"pageInfo": {
+								"endCursor": "eyJjcmVhdGVkQXQiOjE3NjU1NjkxNDQ1NzgsIl9pZCI6IjY5M2M3Mjc4MWIwOTkzNmE0ZDhkMzk4MCJ9",
+								"hasNextPage": false
+							},
+							"edges": [
+								{
+									"cursor": "eyJjcmVhdGVkQXQiOjE3NjU1NjkxNDQ1NzgsIl9pZCI6IjY5M2M3Mjc4MWIwOTkzNmE0ZDhkMzk4MCJ9",
+									"node": {
+										"__typename": "WorkspaceInvitation",
+										"id": "693c72781b09936a4d8d3980",
+										"email": "aperiyannan@gmail.com",
+										"role": "admin",
+										"nodeId": "V29ya3NwYWNlSW52aXRhdGlvbjo2OTNjNzI3ODFiMDk5MzZhNGQ4ZDM5ODA="
+									}
+								}
+							]
+						},
+						"billingInfo": {
+							"__typename": "SubscriptionInfo",
+							"__isNode": "SubscriptionInfo",
+							"id": "keUdgnG7F2Tz7h8R",
+							"nodeId": "U3Vic2NyaXB0aW9uSW5mbzo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmtlVWRnbkc3RjJUejdoOFI6d29ya3NwYWNlOjo=",
+							"subscriptionPlan": {
+								"planType": "ProMonthly",
+								"name": "Lindy Pro Monthly",
+								"nodeId": "U3Vic2NyaXB0aW9uUGxhbjo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmJmVGE1RlIzYXJxTXMzNUY6d29ya3NwYWNlOnByby1tb250aGx5OjUwMDA="
+							}
+						}
+					},
+					"isUsableByUsers": false,
+					"stateGraph": {
+						"nodeId": "U3RhdGVHcmFwaDo2OTNjNzhmMjYxYWRlY2JhZTliN2UxNTA=",
+						"nodes": [
+							{
+								"__typename": "EntryPointTriggerNode",
+								"__isNode": "EntryPointTriggerNode",
+								"nodeId": "RW50cnlQb2ludFRyaWdnZXJOb2RlOjY5M2M3OGYyNjFhZGVjYmFlOWI3ZTE1MDo2OTNjNzhiYjM5MDk5MDgyZGYzOTI2OTA=",
+								"triggerDefinition": {
+									"name": "onRecurringSchedule",
+									"nodeId": "VHJpZ2dlckRlZmluaXRpb246VGltZXIub25SZWN1cnJpbmdTY2hlZHVsZQ==",
+									"tool": {
+										"tool": "Timer",
+										"nodeId": "VG9vbDpUaW1lcg=="
+									}
+								}
+							},
+							{
+								"__typename": "AgentStateNode",
+								"__isNode": "AgentStateNode",
+								"nodeId": "QWdlbnRTdGF0ZU5vZGU6NjkzYzc4ZjI2MWFkZWNiYWU5YjdlMTUwOjY5M2M3OGJjMzkwOTkwODJkZjM5MjczMg=="
+							}
+						]
+					}
+				},
+				{
+					"id": "693b3fc7e12822592e50aff0",
+					"name": "Agent Monitor",
+					"createdAt": "2025-12-11T22:03:51.430Z",
+					"isMuted": false,
+					"lastRunAt": "2026-01-07T20:32:46.526Z",
+					"nodeId": "QWdlbnREZWZpbml0aW9uOjY5M2IzZmM3ZTEyODIyNTkyZTUwYWZmMA==",
+					"icon": {
+						"name": "OpenNoteBookPadIcon",
+						"color": "Yellow"
+					},
+					"sharing": {
+						"visibility": "private"
+					},
+					"permission": "owner",
+					"groupPermissions": [
+
+					],
+					"effectiveUserPermissions": [
+
+					],
+					"isFavorite": false,
+					"effectiveWorkspacePermission": {
+						"access": null,
+						"sources": [
+
+						],
+						"folderAccess": null
+					},
+					"ownerInfo": {
+						"__typename": "Identity",
+						"__isNode": "Identity",
+						"id": "693b2e83e6a088955f32f826",
+						"name": "Michael Feiertag",
+						"email": "m@mftestco.com",
+						"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2"
+					},
+					"isCustomizable": false,
+					"notificationsCount": 246,
+					"parentFolder": null,
+					"hasUsers": false,
+					"hasEditors": false,
+					"workspace": {
+						"name": "Michael Feiertag's Workspace",
+						"id": "693b2e83e6a088955f32f830",
+						"url": "michael-feiertags-workspace-2",
+						"logo": null,
+						"nodeId": "V29ya3NwYWNlOjY5M2IyZTgzZTZhMDg4OTU1ZjMyZjgzMA==",
+						"groups": [
+
+						],
+						"pendingInvitations": {
+							"pageInfo": {
+								"endCursor": "eyJjcmVhdGVkQXQiOjE3NjU1NjkxNDQ1NzgsIl9pZCI6IjY5M2M3Mjc4MWIwOTkzNmE0ZDhkMzk4MCJ9",
+								"hasNextPage": false
+							},
+							"edges": [
+								{
+									"cursor": "eyJjcmVhdGVkQXQiOjE3NjU1NjkxNDQ1NzgsIl9pZCI6IjY5M2M3Mjc4MWIwOTkzNmE0ZDhkMzk4MCJ9",
+									"node": {
+										"__typename": "WorkspaceInvitation",
+										"id": "693c72781b09936a4d8d3980",
+										"email": "aperiyannan@gmail.com",
+										"role": "admin",
+										"nodeId": "V29ya3NwYWNlSW52aXRhdGlvbjo2OTNjNzI3ODFiMDk5MzZhNGQ4ZDM5ODA="
+									}
+								}
+							]
+						},
+						"billingInfo": {
+							"__typename": "SubscriptionInfo",
+							"__isNode": "SubscriptionInfo",
+							"id": "keUdgnG7F2Tz7h8R",
+							"nodeId": "U3Vic2NyaXB0aW9uSW5mbzo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmtlVWRnbkc3RjJUejdoOFI6d29ya3NwYWNlOjo=",
+							"subscriptionPlan": {
+								"planType": "ProMonthly",
+								"name": "Lindy Pro Monthly",
+								"nodeId": "U3Vic2NyaXB0aW9uUGxhbjo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmJmVGE1RlIzYXJxTXMzNUY6d29ya3NwYWNlOnByby1tb250aGx5OjUwMDA="
+							}
+						}
+					},
+					"isUsableByUsers": false,
+					"stateGraph": {
+						"nodeId": "U3RhdGVHcmFwaDo2OTVlYmE3ZGE5MDQyZmM3OTY5NjA1ZGI=",
+						"nodes": [
+							{
+								"__typename": "ActionNode",
+								"__isNode": "ActionNode",
+								"nodeId": "QWN0aW9uTm9kZTo2OTVlYmE3ZGE5MDQyZmM3OTY5NjA1ZGI6NjkzYjQzM2I2ZmJiMWQ0YjE1N2Y0ZTNm"
+							},
+							{
+								"__typename": "EntryPointTriggerNode",
+								"__isNode": "EntryPointTriggerNode",
+								"nodeId": "RW50cnlQb2ludFRyaWdnZXJOb2RlOjY5NWViYTdkYTkwNDJmYzc5Njk2MDVkYjo2OTNjNzVlZjFkOWVmYjEwNmY3MWJmNjA=",
+								"triggerDefinition": {
+									"name": "onAgentTaskResolution",
+									"nodeId": "VHJpZ2dlckRlZmluaXRpb246TGluZHkub25BZ2VudFRhc2tSZXNvbHV0aW9u",
+									"tool": {
+										"tool": "Lindy",
+										"nodeId": "VG9vbDpMaW5keQ=="
+									}
+								}
+							},
+							{
+								"__typename": "ActionNode",
+								"__isNode": "ActionNode",
+								"nodeId": "QWN0aW9uTm9kZTo2OTVlYmE3ZGE5MDQyZmM3OTY5NjA1ZGI6Njk1ZWI0ODM1NmExYTA2NWIzMjA2NTgz"
+							}
+						]
+					}
+				},
+				{
+					"id": "695d7c0b17d213e56045761c",
+					"name": "Brand Monitor",
+					"createdAt": "2026-01-06T21:18:03.521Z",
+					"isMuted": false,
+					"lastRunAt": "2026-01-07T20:32:35.256Z",
+					"nodeId": "QWdlbnREZWZpbml0aW9uOjY5NWQ3YzBiMTdkMjEzZTU2MDQ1NzYxYw==",
+					"icon": {
+						"name": "SunLightModeDayIcon",
+						"color": "Pink"
+					},
+					"sharing": {
+						"visibility": "private"
+					},
+					"permission": "owner",
+					"groupPermissions": [
+
+					],
+					"effectiveUserPermissions": [
+
+					],
+					"isFavorite": false,
+					"effectiveWorkspacePermission": {
+						"access": null,
+						"sources": [
+
+						],
+						"folderAccess": null
+					},
+					"ownerInfo": {
+						"__typename": "Identity",
+						"__isNode": "Identity",
+						"id": "693b2e83e6a088955f32f826",
+						"name": "Michael Feiertag",
+						"email": "m@mftestco.com",
+						"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2"
+					},
+					"isCustomizable": false,
+					"notificationsCount": 4,
+					"parentFolder": null,
+					"hasUsers": false,
+					"hasEditors": false,
+					"stateGraph": {
+						"nodeId": "U3RhdGVHcmFwaDo2OTVlYjA0MDBkNzQ0Yzc4YTAyNTllMDc=",
+						"nodes": [
+							{
+								"__typename": "EntryPointTriggerNode",
+								"__isNode": "EntryPointTriggerNode",
+								"nodeId": "RW50cnlQb2ludFRyaWdnZXJOb2RlOjY5NWViMDQwMGQ3NDRjNzhhMDI1OWUwNzo2OTVkN2MwYjE3ZDIxM2U1NjA0NTc2MjI=",
+								"triggerDefinition": {
+									"name": "onLindyEmbedMessageReceived",
+									"nodeId": "VHJpZ2dlckRlZmluaXRpb246TGluZHlFbWJlZC5vbkxpbmR5RW1iZWRNZXNzYWdlUmVjZWl2ZWQ=",
+									"tool": {
+										"tool": "LindyEmbed",
+										"nodeId": "VG9vbDpMaW5keUVtYmVk"
+									}
+								}
+							},
+							{
+								"__typename": "ActionNode",
+								"__isNode": "ActionNode",
+								"nodeId": "QWN0aW9uTm9kZTo2OTVlYjA0MDBkNzQ0Yzc4YTAyNTllMDc6Njk1ZDdjMGIxN2QyMTNlNTYwNDU3NjJj"
+							},
+							{
+								"__typename": "ActionNode",
+								"__isNode": "ActionNode",
+								"nodeId": "QWN0aW9uTm9kZTo2OTVlYjA0MDBkNzQ0Yzc4YTAyNTllMDc6Njk1ZDdjMGIxN2QyMTNlNTYwNDU3NjJk"
+							},
+							{
+								"__typename": "ActionNode",
+								"__isNode": "ActionNode",
+								"nodeId": "QWN0aW9uTm9kZTo2OTVlYjA0MDBkNzQ0Yzc4YTAyNTllMDc6Njk1ZTllMDhkYWQ3NjgzNjhiMWFmOTY4"
+							},
+							{
+								"__typename": "ActionNode",
+								"__isNode": "ActionNode",
+								"nodeId": "QWN0aW9uTm9kZTo2OTVlYjA0MDBkNzQ0Yzc4YTAyNTllMDc6Njk1ZWFkNTE4N2Q3ZGY4ZDFiMGQwOGY4"
+							},
+							{
+								"__typename": "LogicNode",
+								"__isNode": "LogicNode",
+								"nodeId": "TG9naWNOb2RlOjY5NWViMDQwMGQ3NDRjNzhhMDI1OWUwNzo2OTVlYjA0MGNlYTZjYzhiNjEyY2U3NWQ="
+							}
+						]
+					},
+					"workspace": {
+						"name": "Michael Feiertag's Workspace",
+						"id": "693b2e83e6a088955f32f830",
+						"url": "michael-feiertags-workspace-2",
+						"logo": null,
+						"nodeId": "V29ya3NwYWNlOjY5M2IyZTgzZTZhMDg4OTU1ZjMyZjgzMA==",
+						"groups": [
+
+						],
+						"pendingInvitations": {
+							"pageInfo": {
+								"endCursor": "eyJjcmVhdGVkQXQiOjE3NjU1NjkxNDQ1NzgsIl9pZCI6IjY5M2M3Mjc4MWIwOTkzNmE0ZDhkMzk4MCJ9",
+								"hasNextPage": false
+							},
+							"edges": [
+								{
+									"cursor": "eyJjcmVhdGVkQXQiOjE3NjU1NjkxNDQ1NzgsIl9pZCI6IjY5M2M3Mjc4MWIwOTkzNmE0ZDhkMzk4MCJ9",
+									"node": {
+										"__typename": "WorkspaceInvitation",
+										"id": "693c72781b09936a4d8d3980",
+										"email": "aperiyannan@gmail.com",
+										"role": "admin",
+										"nodeId": "V29ya3NwYWNlSW52aXRhdGlvbjo2OTNjNzI3ODFiMDk5MzZhNGQ4ZDM5ODA="
+									}
+								}
+							]
+						},
+						"billingInfo": {
+							"__typename": "SubscriptionInfo",
+							"__isNode": "SubscriptionInfo",
+							"id": "keUdgnG7F2Tz7h8R",
+							"nodeId": "U3Vic2NyaXB0aW9uSW5mbzo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmtlVWRnbkc3RjJUejdoOFI6d29ya3NwYWNlOjo=",
+							"subscriptionPlan": {
+								"planType": "ProMonthly",
+								"name": "Lindy Pro Monthly",
+								"nodeId": "U3Vic2NyaXB0aW9uUGxhbjo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmJmVGE1RlIzYXJxTXMzNUY6d29ya3NwYWNlOnByby1tb250aGx5OjUwMDA="
+							}
+						}
+					},
+					"isUsableByUsers": false
+				},
+				{
+					"id": "693b3789c8b9204305fd5087",
+					"name": "Board meeting monitor",
+					"createdAt": "2025-12-11T21:28:41.512Z",
+					"isMuted": false,
+					"lastRunAt": "2026-01-07T17:00:55.104Z",
+					"nodeId": "QWdlbnREZWZpbml0aW9uOjY5M2IzNzg5YzhiOTIwNDMwNWZkNTA4Nw==",
+					"icon": {
+						"name": "MeetingSchedulerIcon",
+						"color": "Green"
+					},
+					"sharing": {
+						"visibility": "private"
+					},
+					"permission": "owner",
+					"groupPermissions": [
+
+					],
+					"effectiveUserPermissions": [
+
+					],
+					"isFavorite": false,
+					"effectiveWorkspacePermission": {
+						"access": null,
+						"sources": [
+
+						],
+						"folderAccess": null
+					},
+					"ownerInfo": {
+						"__typename": "Identity",
+						"__isNode": "Identity",
+						"id": "693b2e83e6a088955f32f826",
+						"name": "Michael Feiertag",
+						"email": "m@mftestco.com",
+						"nodeId": "SWRlbnRpdHk6NjkzYjJlODNlNmEwODg5NTVmMzJmODI2"
+					},
+					"isCustomizable": false,
+					"notificationsCount": 0,
+					"parentFolder": null,
+					"hasUsers": false,
+					"hasEditors": false,
+					"workspace": {
+						"name": "Michael Feiertag's Workspace",
+						"id": "693b2e83e6a088955f32f830",
+						"url": "michael-feiertags-workspace-2",
+						"logo": null,
+						"nodeId": "V29ya3NwYWNlOjY5M2IyZTgzZTZhMDg4OTU1ZjMyZjgzMA==",
+						"groups": [
+
+						],
+						"pendingInvitations": {
+							"pageInfo": {
+								"endCursor": "eyJjcmVhdGVkQXQiOjE3NjU1NjkxNDQ1NzgsIl9pZCI6IjY5M2M3Mjc4MWIwOTkzNmE0ZDhkMzk4MCJ9",
+								"hasNextPage": false
+							},
+							"edges": [
+								{
+									"cursor": "eyJjcmVhdGVkQXQiOjE3NjU1NjkxNDQ1NzgsIl9pZCI6IjY5M2M3Mjc4MWIwOTkzNmE0ZDhkMzk4MCJ9",
+									"node": {
+										"__typename": "WorkspaceInvitation",
+										"id": "693c72781b09936a4d8d3980",
+										"email": "aperiyannan@gmail.com",
+										"role": "admin",
+										"nodeId": "V29ya3NwYWNlSW52aXRhdGlvbjo2OTNjNzI3ODFiMDk5MzZhNGQ4ZDM5ODA="
+									}
+								}
+							]
+						},
+						"billingInfo": {
+							"__typename": "SubscriptionInfo",
+							"__isNode": "SubscriptionInfo",
+							"id": "keUdgnG7F2Tz7h8R",
+							"nodeId": "U3Vic2NyaXB0aW9uSW5mbzo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmtlVWRnbkc3RjJUejdoOFI6d29ya3NwYWNlOjo=",
+							"subscriptionPlan": {
+								"planType": "ProMonthly",
+								"name": "Lindy Pro Monthly",
+								"nodeId": "U3Vic2NyaXB0aW9uUGxhbjo2OTNiMmU4M2U2YTA4ODk1NWYzMmY4MjY6NjkzYjJlODNlNmEwODg5NTVmMzJmODMwOmJmVGE1RlIzYXJxTXMzNUY6d29ya3NwYWNlOnByby1tb250aGx5OjUwMDA="
+							}
+						}
+					},
+					"isUsableByUsers": false,
+					"stateGraph": {
+						"nodeId": "U3RhdGVHcmFwaDo2OTNiM2U0M2E1MjMwMWM5M2MzZjczMGE=",
+						"nodes": [
+							{
+								"__typename": "EntryPointTriggerNode",
+								"__isNode": "EntryPointTriggerNode",
+								"nodeId": "RW50cnlQb2ludFRyaWdnZXJOb2RlOjY5M2IzZTQzYTUyMzAxYzkzYzNmNzMwYTo2OTNiMzc4OWM4YjkyMDQzMDVmZDUwODU=",
+								"triggerDefinition": {
+									"name": "onRecurringSchedule",
+									"nodeId": "VHJpZ2dlckRlZmluaXRpb246VGltZXIub25SZWN1cnJpbmdTY2hlZHVsZQ==",
+									"tool": {
+										"tool": "Timer",
+										"nodeId": "VG9vbDpUaW1lcg=="
+									}
+								}
+							},
+							{
+								"__typename": "ActionNode",
+								"__isNode": "ActionNode",
+								"nodeId": "QWN0aW9uTm9kZTo2OTNiM2U0M2E1MjMwMWM5M2MzZjczMGE6NjkzYjM3OTFiZDYxZWJhYzk5ODhhMTc0"
+							},
+							{
+								"__typename": "ActionNode",
+								"__isNode": "ActionNode",
+								"nodeId": "QWN0aW9uTm9kZTo2OTNiM2U0M2E1MjMwMWM5M2MzZjczMGE6NjkzYjM4MTBiZDYxZWJhYzk5ODhhMWI4"
+							},
+							{
+								"__typename": "LogicNode",
+								"__isNode": "LogicNode",
+								"nodeId": "TG9naWNOb2RlOjY5M2IzZTQzYTUyMzAxYzkzYzNmNzMwYTo2OTNiMzhhZmJkNjFlYmFjOTk4OGEyOTI="
+							},
+							{
+								"__typename": "ActionNode",
+								"__isNode": "ActionNode",
+								"nodeId": "QWN0aW9uTm9kZTo2OTNiM2U0M2E1MjMwMWM5M2MzZjczMGE6NjkzYjM4ZDBiZDYxZWJhYzk5ODhhMmVl"
+							},
+							{
+								"__typename": "EntryPointTriggerNode",
+								"__isNode": "EntryPointTriggerNode",
+								"nodeId": "RW50cnlQb2ludFRyaWdnZXJOb2RlOjY5M2IzZTQzYTUyMzAxYzkzYzNmNzMwYTo2OTNiMzkyN2JkNjFlYmFjOTk4OGEzNzg=",
+								"triggerDefinition": {
+									"name": "onRecurringSchedule",
+									"nodeId": "VHJpZ2dlckRlZmluaXRpb246VGltZXIub25SZWN1cnJpbmdTY2hlZHVsZQ==",
+									"tool": {
+										"tool": "Timer",
+										"nodeId": "VG9vbDpUaW1lcg=="
+									}
+								}
+							}
+						]
+					}
+				}
+			],
+			"shouldShowSidebarCreditsGauge": false
+		}
+	}
+}
